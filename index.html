@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta tag copy from websites -->
+    <meta name="Description"
+        content="Best Data Science, Data Analytics &amp; Fullstack Development training in Dehradun &amp; Uttarakhand with certification &amp; 100% placement assistance by certified trainers">
+    <meta name="keywords"
+        content="Data science course in Dehradun,Data science course in Uttarakhand, Data Analytics course in Dehradun, Data Analytics course in Uttarakhand, Fullstack development course in Dehradun, Fullstack development course in Uttarakhand, Data Science institute in Dehradun, IT training in Dehradun, IT training in Uttarakhand, Best IT training institute in Dehradun &amp; Uttarakhand ">
+    <meta name="msvalidate.01" content="7F99E2826798382D8000AF6E9E4DBCDC">
+    <meta name="yandex-verification" content="2fdc699e72cdb332">
+    <meta http-equiv="origin-trial"
+        content="A751Xsk4ZW3DVQ8WZng2Dk5s3YzAyqncTzgv+VaE6wavgTY0QHkDvUTET1o7HanhuJO8lgv1Vvc88Ij78W1FIAAAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
+    <meta http-equiv="origin-trial"
+        content="A751Xsk4ZW3DVQ8WZng2Dk5s3YzAyqncTzgv+VaE6wavgTY0QHkDvUTET1o7HanhuJO8lgv1Vvc88Ij78W1FIAAAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
+    <title>Brillica Services Website Clone By Shubham Joshi</title>
+    <!-- Fav icon -->
+    <link rel="shortcut icon" href="./images/brillicalogo.png" type="image/x-icon">
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Bootstrap Script CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- link external css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- link Responsive external css -->
+    <link rel="stylesheet" href="./responsive.css">
+    <!-- link cdn of font awosome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body onload="hidepara()">
+    <!-- Head Section Starts -->
+    <header class="head-container">
+        <section class="top-head">
+            <div class="top-left-head">
+                <a href="tel:+91 9536151723"><i class="fa-solid fa-phone-volume icon"></i></a>
+                <a href="tel:+91 7505407218">+91- 7505407218</a>
+                <a href="tel:8882140688">+91- 8882140688</a>
+            </div>
+            <div class="top-right-head">
+                <a href="https://www.facebook.com/BrillicaServices" target="_blank"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/BrillicaServic1" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/brillicaservices/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/brillica-services-pvt-ltd/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/channel/UCiSM7T99TirO9z2xFEOMllQ" target="_blank"><i
+                        class="fa-brands fa-youtube"></i></a>
+                <a href="#" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+        </section>
+        <section class="bottom-head">
+            <div class="logo">
+                <a href="./index.html"><img src="./images/logo.jpeg" alt="brillica logo"></a>
+            </div>
+            <div class="nav" id="nav" onclick="show()">
+                <div class="menu" id="menu">
+                    <div class="bar" id="bar1"></div>
+                    <div class="bar" id="bar2"></div>
+                    <div class="bar" id="bar3"></div>
+                </div>
+                <div class="nav-ul">
+                    <li class="nav-li" id="nav-btn"><a href="./allCourse.html">all courses</a></li>
+                    <li class="nav-li"><a href="./about.html" target="_blank">about us</a></li>
+                    <li class="nav-li" id="drop-box"><a href="#">our services</a>
+                        <ul class="drop-down">
+                            <li class="drop-down-li"><a href="https://www.brillicaservices.com/technology_training"
+                                    target="_blank">technology training</a></li>
+                            <li class="drop-down-li"><a href="https://www.brillicaservices.com/Web_and_App"
+                                    target="_blank">Web And app development</a></li>
+                            <li class="drop-down-li"><a href="https://www.brillicaservices.com/Internship_with_us"
+                                    target="_blank">internship training</a></li>
+                            <li class="drop-down-li"><a href="#">recruitment services</a></li>
+                            <li class="drop-down-li"><a href="https://www.brillicaservices.com/digital_marketing"
+                                    target="_blank">digital marketing</a></li>
+                            <li class="drop-down-li"><a href="https://www.brillicaservices.com/corporate_training"
+                                    target="_blank">corporate training</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-li"><a href="./blog.html" target="_blank">blog</a></li>
+                    <li class="nav-li"><a href="./contact.html" target="_blank">contact us</a></li>
+                    <li class="nav-li" id="nav-eq-btn" onclick="msg()"><a href="./enquiry.html">enquiry</a></li>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- Head Section Ends -->
+    <div class="slider"></div>
+
+    <!-- Slider Section Starts -->
+    <section id="carouselExampleAutoplaying" class="carousel slide slider" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/asset 7.jpeg" class="d-block w-100" alt=".img1">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/asset 8.jpeg" class="d-block w-100" alt="img2">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/asset 9.jpeg" class="d-block w-100" alt=".img3">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/asset 10.jpeg" class="d-block w-100" alt=".img4">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </section>
+    <!-- Slider Section Ends -->
+
+    <!-- Trending Courses Section Starts -->
+    <section class="trend-course">
+        <div class="primary-para">
+            TRENDING COURSES
+        </div>
+        <section class="trending-top-box" id="box1">
+            <div class="box">
+                <img src="./images/asset 11.jpeg" alt="" />
+                <div class="empty-box">
+                    <h2>DURATION : 8 Months</h2>
+                    <p>
+                        Data Science involves extracting practicable insights from raw
+                        data. Different scientific methods, algorithms, and processes are
+                        used to extract insights from the wide range of data.
+                    </p>
+                    <button>
+                        <a href="https://www.brillicaservices.com/Data_science_master_program">View Details</a>
+                    </button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/asset 12.jpeg" alt="" />
+                <div class="empty-box">
+                    <h2>DURATION : 6 Months</h2>
+                    <p>
+                        Data analytics technologies and techniques used in different
+                        sectors comprises the process of examining data sets in order to
+                        convert any data into a meaningful information.
+                    </p>
+                    <button>
+                        <a href="https://www.brillicaservices.com/Data_analysis_master_program">View Details</a>
+                    </button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/asset 13.jpeg" alt="" />
+                <div class="empty-box">
+                    <h2>DURATION : 11 Months</h2>
+                    <p>
+                        Full Stack(MERN) comprises of layers of software and web
+                        development consisting of the front-end and the back-end portions
+                        of an application.
+                    </p>
+                    <button>
+                        <a href="https://www.brillicaservices.com/Masters_Program_Full_Stack_Web_Development">View
+                            Details</a>
+                    </button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/asset 14.jpeg" alt="" />
+                <div class="empty-box">
+                    <h2>DURATION : 4 Months</h2>
+                    <p>
+                        Cyber security is the practice to protect computers, servers,
+                        mobile devices, electronic systems, networks, and data from
+                        malicious attacks, also considered as information technology
+                        security or electronic information security.
+                    </p>
+                    <button>
+                        <a href="https://www.brillicaservices.com/Cyber_Security">View Details</a>
+                    </button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/asset 15.jpeg" alt="" />
+                <div class="empty-box">
+                    <h2>DURATION : 2.5 Months</h2>
+                    <p>
+                        Machine learning is the study of algorithms to prepare a model
+                        based on sample data in order to make predictions or decisions
+                        without being precisely programmed to do so.
+                    </p>
+                    <button>
+                        <a href="https://www.brillicaservices.com/Machine_Learning_Using_Python">View Details</a>
+                    </button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/asset 16.jpeg" alt="" />
+                <div class="empty-box">
+                    <h2>DURATION : 1.5 Months</h2>
+                    <p>
+                        CCNA stands for Cisco Certified Network Associate Routing and
+                        Switching is the perfect choice, which focuses on the latest
+                        technological upgrades in the networking domain.
+                    </p>
+                    <button>
+                        <a href="https://www.brillicaservices.com/CCNA">View Details</a>
+                    </button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/asset 17.jpeg" alt="" />
+                <div class="empty-box">
+                    <h2>DURATION : 1.5 Months</h2>
+                    <p>
+                        DevOps is a combination of Development and IT Operations, that
+                        creates software production and deployment in an automated &
+                        repeatable way. Kubernetes is one of the most popular container
+                        orchestration tool.
+                    </p>
+                    <button>
+                        <a href="https://www.brillicaservices.com/Kubernets_Training">View Details</a>
+                    </button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/asset 18.jpeg" alt="" />
+                <div class="empty-box">
+                    <h2>DURATION : 1.5 Months</h2>
+                    <p>
+                        SAP ERP is an enterprise resource planning platform, which helps
+                        businesses run their business processes, including accounting,
+                        sales, production, human resources and finance, in an integrated
+                        environment.
+                    </p>
+                    <button>
+                        <a href="https://www.brillicaservices.com/SAP_HR">View Details</a>
+                    </button>
+                </div>
+            </div>
+            <div id="btn" onclick="nxt()">&gt;</div>
+        </section>
+        <section class="trending-bottom-box" id="box2">
+            <div class="box">
+                <img src="./images/asset 19.jpeg" alt="" />
+                <div class="empty-box">
+                    <h2> DURATION : 2 Months</h2>
+                    <p>Artificial intelligence is the ability of a machine controlled by a computer to do tasks that are
+                        usually done by humans as they require human intelligence and wisdom. In Artificial Intelligence
+                        course in Dehradun you will learn all the application of AI .
+                    </p>
+                    <button>
+                        <a href="https://www.brillicaservices.com/AI_and_Deep_learning">View Details</a>
+                    </button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/asset 20.jpeg" alt="" />
+                <div class="empty-box">
+                    <h2> DURATION : 2 Months</h2>
+                    <p> Digital Marketing is defined as the promotion conveyed through digital channels, for instances;
+                        search engines, websites, social media, email, and mobile applications you will learn SEO, SMM,
+                        SEM, Email marketing .
+                    </p>
+                    <button>
+                        <a href="https://www.brillicaservices.com/digital_marketing">View Details</a>
+                    </button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/asset 21.jpeg" alt="" />
+                <div class="empty-box">
+                    <h2>DURATION : 3 Months</h2>
+                    <p>The practice of using a network of remote servers hosted on the web to store, manage, and process
+                        data, instead of on a local server or on a personal computer. AWS cloud computing course will
+                        tell you the concepts of cloud computing.
+                    </p>
+                    <button>
+                        <a href="https://www.brillicaservices.com/AWS_Training">View
+                            Details</a>
+                    </button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/asset 22.jpeg" alt="" />
+                <div class="empty-box">
+                    <h2>DURATION : 1.5 Months</h2>
+                    <p>R programming language is a dominant open source language that offers a wide variety of
+                        statistics-related libraries and provides a favorable environment for statistical computing and
+                        design.
+                    </p>
+                    <button>
+                        <a href="https://www.brillicaservices.com/R_language">View Details</a>
+                    </button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/asset 23.jpeg" alt="" />
+                <div class="empty-box">
+                    <h2>DURATION : 1 Months</h2>
+                    <p>C++ programming language is a powerful as well as flexible general-purpose programming language
+                        which can be used to develop operating systems, browsers, games, and so on. C++ programming
+                        basic to advance level training & Education.
+                    </p>
+                    <button>
+                        <a href="https://www.brillicaservices.com/C_Programming_Course">View Details</a>
+                    </button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/asset 16.jpeg" alt="" />
+                <div class="empty-box">
+                    <h2>DURATION : 1.5 Months</h2>
+                    <p>Core Java is generally used for creating or developing a general-purpose application. Advanced
+                        Java generally deals with online application like the website and mobile application.
+                    </p>
+                    <button>
+                        <a href="https://www.brillicaservices.com/Java_Development">View Details</a>
+                    </button>
+                </div>
+            </div>
+            <div id="btn" onclick="prev()">&lt;</div>
+        </section>
+    </section>
+    <!-- Trending Courses Section Ends -->
+
+    <!--Our Servicess Section Starts -->
+    <section class="our-service">
+        <div class="primary-para">OUR SERVICES
+        </div>
+        <section class="our-service-box">
+            <div class="service-box">
+                <i class="fa-sharp fa-solid fa-desktop i "></i>
+                <h2>technology training</h2>
+                <p>Learn Demanding IT Training With Us ONLINE|OFFLINE Both Modes Available. Summer & Winter Training Is
+                    Also Available For Graduates & Undergraduates</p>
+                <button> <a href="https://www.brillicaservices.com/technology_training">Know More &gt;&gt;</a></button>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-laptop-code i"></i>
+                <h2>WEB & APP DEVELOPMENT SERVICES</h2>
+                <p>Brillica Services Company Provides App Development & Web Development Services To Help Companies
+                    Create A Great,Cohesive Experience Across Complex Systems.</p>
+                <button> <a href="https://www.brillicaservices.com/Web_and_App">Know More &gt;&gt;</a></button>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-handshake i"></i>
+                <h2>RECRUITMENT SERVICES</h2>
+                <p>Make Your Future Part Of Ours. Join The Brillica Services Today.</p>
+                <button> <a href="https://www.brillicaservices.com/#">Know More &gt;&gt;</a></button>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h2>Internship</h2>
+                <p>Get IT Internships And Work Experience Guidance By Experts On Live Projects.</p>
+                <button> <a href="https://www.brillicaservices.com/Internship_with_us">Know More &gt;&gt;</a></button>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <h2>DIGITAL MARKETING</h2>
+                <p>Make Your Future Part Of Ours. Join The Brillica Services Today.</p>
+                <button> <a href="https://www.brillicaservices.com/digital_marketing">Know More &gt;&gt;</a></button>
+            </div>
+        </section>
+    </section>
+    <!-- Our Services Section Ends -->
+
+    <!-- Hero Section Starts -->
+    <section class="hero">
+        <img src="./images/asset 25.jpeg" alt="Hero First">
+    </section>
+    <!--Hero Section Ends -->
+
+    <!-- Sucess Ratio Section Starts -->
+    <section class="success-ratio">
+        <div class="primary-para"> SUCCESS RATIO</div>
+        <section class="success-ratio-box">
+            <div class="srbox">
+                <i class="fa-solid fa-person-chalkboard"></i>
+                <p>
+                    <span id="counter1" class="cout">1000 </span>
+                </p>
+                <h5>candidate trained</h5>
+            </div>
+            <div class="srbox">
+                <i class="fa-sharp fa-solid fa-user-graduate"></i>
+                <p>
+                    <span id="counter2" class="cout">300 </span>
+                </p>
+                <h5>candidate placed</h5>
+            </div>
+            <div class="srbox">
+                <i class="fa-solid fa-book-open"></i>
+                <p>
+                    <span id="counter3" class="cout">100 </span>
+                </p>
+                <h5>projects delivered</h5>
+            </div>
+            <div class="srbox">
+                <i class="fa-sharp fa-solid fa-building-columns"></i>
+                <p>
+                    <span id="counter4" class="cout">30 </span>
+                </p>
+                <h5>Universities tie up</h5>
+            </div>
+        </section>
+    </section>
+    <!-- Sucess Ratio Section Ends -->
+
+    <!-- Student Testinomial Section Starts -->
+    <section class="student-testinomial">
+        <div class="primary-para">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <br>
+            STUDENT TESTIMONIALS
+        </div>
+        <div class="student" id="box3">
+            <div class="prevbtn" onclick="stprev()">&lt;</div>
+            <div class="border">
+                <div class="student-box1">
+                    <img src="./images/asset 26.png" alt="">
+                    <h5>Aditya Singh</h5>
+                    <h3>Data Analyst Master's Program</h3>
+                    <p>I have done data analyst master's program and i must say that the quality of education is best.
+                        Though i have basic knowledge of data analytics but i wanted to expand my knowledge through
+                        their
+                        guidance. And the instructors are very supportive and have good skills.</p>
+                </div>
+            </div>
+            <div class="border">
+                <div class="student-box1">
+                    <img src="./images/asset 28.png" alt="">
+                    <h5>Kalpana Chhetri</h5>
+                    <h3>CCNA And Cyber Security</h3>
+                    <p>I have done CCNA and cyber security training. I had such a wonderful experience with Brillica
+                        services . The best part during my training was that my mentor and trainers also focused to
+                        trained
+                        me on practical knowledge as well it helped me lot to learn .</p>
+                </div>
+            </div>
+            <div class="border">
+                <div class="student-box1">
+                    <img src="./images/asset 27.png" alt="">
+                    <h5>Aayush Rawat</h5>
+                    <h3>Data Science</h3>
+                    <p>My overall experience at Brillica was up to the mark. The trainers/teachers are well versed with
+                        the
+                        topics, and are quite supportive and helpful. Anyone who wants to brush up their basics or
+                        enhance
+                        their skills should join here.</p>
+                </div>
+            </div>
+            <div class="nxtbtn" onclick="stnxt()">&gt;</div>
+        </div>
+        <div class="student" id="box4">
+            <div class="prevbtn" onclick="stprev()">&lt;</div>
+            <div class="border">
+                <div class="student-box1" id="box3">
+                    <img src="./images/asset 29.png" alt="">
+                    <h5>Aditya Singh</h5>
+                    <h3>Data Analyst Master's Program</h3>
+                    <p>I have done data analyst master's program and i must say that the quality of education is best.
+                        Though i have basic knowledge of data analytics but i wanted to expand my knowledge through
+                        their
+                        guidance. And the instructors are very supportive and have good skills.</p>
+                </div>
+            </div>
+            <div class="border">
+                <div class="student-box1">
+                    <img src="./images/asset 30.png" alt="">
+                    <h5>Kalpana Chhetri</h5>
+                    <h3>CCNA And Cyber Security</h3>
+                    <p>I have done CCNA and cyber security training. I had such a wonderful experience with Brillica
+                        services . The best part during my training was that my mentor and trainers also focused to
+                        trained
+                        me on practical knowledge as well it helped me lot to learn .</p>
+                </div>
+            </div>
+            <div class="border">
+
+                <div class="student-box1">
+                    <img src="./images/asset 32.png" alt="">
+                    <h5>Tanishqa Lodhi</h5>
+                    <h3> Excel-Workshop</h3>
+                    <p>Being an active participant, i could enjoy every part of the workshop being organized. From none
+                        to
+                        some, it was an amazing experience to learn things. I personally didn't have any for excel but
+                        now i
+                        can truly believe that i can really work on it.</p>
+                </div>
+            </div>
+            <div class="nxtbtn" onclick="stnxt()">&gt;</div>
+        </div>
+    </section>
+    <!-- Student Testinomial Section Ends -->
+
+    <!-- Our Company Section Starts -->
+    <section class="our-associates">
+        <div class="primary-para">OUR INDUSTRY ASSOCIATION</div>
+        <section class="our-box">
+            <div class="text">
+                <h3>ACTIVATE YOUR BRILLIANCE</h3>
+                <h2>We Work With The Best Partner</h2>
+                <p> Brillica Services as the Best IT service & Web development Company in Dehradun & Uttarakhand ensure
+                    to provide quality service to our customers and this is possible only because we work with the
+                    Industry leaders in the field of IT & Research. We are committed for your success & growth. Brillica
+                    Services provide prominent & Best IT Solutions & Training across domain</p>
+            </div>
+            <div class="images">
+                <img src="./images/asset 34.png" alt="Company Logo 1">
+                <img src="./images/asset 35.png" alt="Company Logo 2">
+                <img src="./images/asset 36.png" alt="Company Logo 3">
+            </div>
+        </section>
+    </section>
+    <!-- Our Company Section Ends -->
+
+    <!-- Hero second Section Starts -->
+    <section class="hero1">
+        <img src="./images/asset 37.jpeg" alt="Hero second">
+    </section>
+    <!-- hero second Section Ends -->
+
+    <!-- FQA Section Starts -->
+    <section class="fqa">
+        <div class="primary-para">FQA</div>
+        <!-- <div class="question"> -->
+        <div class="ques" onclick="showpara(this)">1. Is there any project based internship training available in
+            Uttarakhand?</div>
+        <p class="answer">Yes, Brillica services provides the project based internship training program in Dehradun,
+            Uttarakhand and Delhi. Brillica services gives the best Brillica Services is the best IT service &
+            Web development company in Dehradun & Uttarakhand which also provides the best IT training & courses
+            with Certifications.</p>
+        <div class="ques" onclick="showpara(this)">2. What is data science project based internship training?</div>
+        <p class="answer"><a href="https://www.brillicaservices.com/Data_science_master_program">Data science</a> is the
+            field of study that consists of domain expertise, programming skills, and knowledge of mathematics and
+            statistics to extract meaningful insights from data. Data scientists apply machine learning with
+            python algorithms to numbers, text, images, video, audio, and more to produce Artificial
+            Intelligence (AI) and Deep Learning to perform tasks that work on the human intelligence to make
+            every field more precise. In turn, these systems generate insights which analysts and business users
+            can translate into tangible business value.</p>
+        <div class="ques" onclick="showpara(this)">3. What is full stack web development and from where I can get
+            certified internship training in Uttarakhand?</div>
+        <p class="answer"><a href="https://www.brillicaservices.com/Masters_Program_Full_Stack_Web_Development"> Full
+                Stack</a> is a layer of software and web development consisting of the front-end and the
+            back-end portions of an application. Front-end is what the users see or interact with on the
+            application. Back-end is the part which users do not see, such as application's logic, database,
+            server, etc. Brillica Services Pvt. Ltd is the best platform for the candidates to get certification
+            of project based internship training on Full Stack Web Development as we are the Best IT service &
+            Web development Company in Dehradun & Uttarakhand.</p>
+        <div class="ques" onclick="showpara(this)">4. How project based internship training helps you in your job
+            assistance?</div>
+        <p class="answer">Project based internship training program helps you develop personal aspects, also helps them
+            to apply their skills into live projects, it teaches them how to be productive and implement their
+            creativity and strengths, also helps them to avoid their weaknesses and give them the belief in
+            making a difference.</p>
+        <div class="ques" onclick="showpara(this)">5. Which IT technology you should learn for your summer internship
+            training if you
+            are a college student?</div>
+        <p class="answer">
+            During the summer internship training program a Student can opt for the various IT course from
+            Brillica Services like Data Science, <a href="https://www.brillicaservices.com/Big_Data_Hadoop">Big
+                Data</a> ,<a href="https://www.brillicaservices.com/AI_and_Deep_learning">Artificial
+                Intelligence</a> and <a href="https://www.brillicaservices.com/Machine_Learning_Using_Python">Machine
+                Learning</a> , <a href="https://www.brillicaservices.com/AWS_Training"> Cloud Computing</a>,Project
+            Management</a>
+            , Business Intelligence, Networking, Software Development, <a
+                href="https://www.brillicaservices.com/DevOps_Training">DevOps</a> , <a
+                href="https://www.brillicaservices.com/Cyber_Security">Cybersecurity</a> , <a
+                href="https://www.brillicaservices.com/digital_marketing"> Digital Marketing</a>. If you are
+            graduate, Btech, Mtech, BBA, BCA, MCA students and want to upgrade your skills, so Brillica Services
+            is the right platform for the best summer internship training program.
+        </p>
+
+        <div class="ques" onclick="showpara(this)">6. Why to do Python training course with Brillica Services?</div>
+        <p class="answer">
+            <a href="https://www.brillicaservices.com/Python_Programming">Python</a>
+            programming is the most popular and powerful programming language used nearly in all AI and machine
+            learning operations. It is a highly sought-after skill by software professionals, app developers and
+            beginner programmers. This powerful object-oriented programming language is featured with high
+            extensibility, large standard library, portability and embed-ability making it popular in domains of
+            data analysis and visualization, AI and machine learning, application back-end framing, desktop app
+            development and much more. Brillica Services provides the best opportunities to work with live
+            projects and also to explore things beyond imagination.
+        </p>
+
+        <div class="ques" onclick="showpara(this)">7. From where I can get certified summer training course in
+            Uttarakhand?</div>
+        <p class="answer">
+            If you are searching for the best summer training internship programs in Dehradun and Uttarakhand,
+            then Brillica Services is the best platform to get the certified summer training program courses.
+        </p>
+
+        <div class="ques" onclick="showpara(this)">8. Does Brillica Services offers Summer and Winter internship
+            training course for
+            college students with live projects?</div>
+        <p class="answer">
+            Yes, ofcourse. Brillica Services provides the best project based summer and winter internship
+            training programs for college students with live projects.
+        </p>
+
+        <div class="ques" onclick="showpara(this)">9. Does Brillica Services provides website designing and website
+            development
+            services?</div>
+        <p class="answer">
+            Yes, ofcourse.
+        </p>
+    </section>
+    <!-- FQA Section Ends -->
+
+    <!-- Bottom Link Section Starts -->
+    <section class="bottom-links">
+        <div class="link-box1">
+            <div class="foot-img">
+                <img src="./images//transparent logo.png" alt="Transparent Logo At Bottom Links">
+            </div>
+            <h2>ACTIVATE YOUR BRILLIANCE ACHIEVE YOUR IT GOALS</h2>
+            <h3>GET IN TOUCH</h3>
+            <div class="mail">
+                <i class="fa-solid fa-envelope"></i>
+                <span>info@brillicaservices.com</span>
+            </div>
+            <div class="call">
+                <i class="fa-solid fa-phone"></i><span>+91- 9084063259</span>
+            </div>
+            <div class="call">
+                <i class="fa-solid fa-phone"></i>
+                <span>+91- 8882140688</span>
+            </div>
+        </div>
+        <div class="link-box2">
+            <h2> USEFUL LINKS</h2>
+            <li> <a href="https://www.brillicaservices.com/technology_training">Technology Training</a></li>
+            <li> <a href="https://www.brillicaservices.com/Web_and_App"> Web And App Development</a></li>
+            <li><a href="https://www.brillicaservices.com/Internship_with_us"> Internship Training</a></li>
+            <li><a href="https://www.brillicaservices.com/index.php#">Recruitment Services</a></li>
+            <li> <a href="#">Digital Marketing</a></li>
+        </div>
+        <div class="link-box3">
+            <h2>COMPANY</h2>
+            <li><a href="https://www.brillicaservices.com/Privacy_Policy">Privacy Policy</a></li>
+            <li><a href="https://www.brillicaservices.com/Terms_and_Condition">Terms And Conditions</a></li>
+            <li><a href="https://www.brillicaservices.com/Refund_Policy">Refund-Policy</a></li>
+            <li><a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScbixmhzOcNC7j-byNy8iyR5cgkJPawPCkQZ0LJltS6FV7-Iw/viewform?embedded=true">Feedback
+                    Form</a></li>
+            <li><a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSee-zQH29UttlurI0pDNtJ1K7wqN7HdcPHycFO8e3isZnY0yA/viewform">Request
+                    Certificate</a></li>
+            <li><a href="https://pages.razorpay.com/pl_DpExGgOHtCpfuW/view">Pay Online</a></li>
+            <li><a href="https://www.brillicaservices.com/ourteam">Our Team</a></li>
+        </div>
+        <div class="link-box4">
+            <h2>LOCATION</h2>
+            <p>2nd Floor Above Suvidha Supermarket Patel Nagar Dehradun, Uttarakhand 248001
+            </p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.5063490863236!2d78.01650231499343!3d30.308112081787186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39092b18f2e35f5b%3A0xb6c8ff67c9d45def!2sBrillica%20Services!5e0!3m2!1sen!2sin!4v1669481371134!5m2!1sen!2sin"
+                width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="iframe"></iframe>
+        </div>
+    </section>
+    <!-- Bottom Link Section Ends -->
+
+    <!-- Foot All Links Section Starts-->
+    <section class="foot">
+        <section class="footer-links">
+            <h2>QUICK COURSES</h2>
+            <a href="https://www.brillicaservices.com/Python_Programming">Python Programming | </a>
+            <a href="https://www.brillicaservices.com/Machine_Learning_Using_Python">Machine learning | </a>
+            <a href="https://www.brillicaservices.com/Open_CV">OpenCV | </a>
+            <a href="https://www.brillicaservices.com/R_language">R-Language | </a>
+            <a href="https://www.brillicaservices.com/SAS_Training">SAS Training | </a>
+            <a href="https://www.brillicaservices.com/Tableau">Tableau | </a>
+            <a href="https://www.brillicaservices.com/Power_BI">Microsoft Power BI | </a>
+            <a href="https://www.brillicaservices.com/Advance_Excel">Adavance Excel Training | </a>
+            <a href="https://www.brillicaservices.com/Big_Data_Hadoop">Big Data Hadoop Adminstration Training | </a>
+            <a href="https://www.brillicaservices.com/AWS_Training">AWS Training | </a>
+            <a href="https://www.brillicaservices.com/Microsoft_Azure">Microsoft Azure Training | </a>
+            <a href="https://www.brillicaservices.com/Scrum_Master">Certified Scrum Master Training | </a>
+            <a href="https://www.brillicaservices.com/Java_Development">Java Development | </a>
+            <a href="https://www.brillicaservices.com/Full_Stack_WEB_DEVELOPMENT">Full Stack Web Development | </a>
+            <a href="https://www.brillicaservices.com/Blockchain_Developer_Ethereum">Certified Blockchain Developer |
+            </a>
+            <a href="https://www.brillicaservices.com/IOT_Training">IOT Training | </a>
+            <a href="https://www.brillicaservices.com/digital_marketing">Digital Marketing | </a>
+            <a href="https://www.brillicaservices.com/Cyber_Security">Cybersecurity | </a>
+            <a href="https://www.brillicaservices.com/android_app_development">Android Application Development | </a>
+            <a href="https://www.brillicaservices.com/CCNA">CCNA | </a>
+            <a href="https://www.brillicaservices.com/CCNP">CCNP | </a>
+            <a href="https://www.brillicaservices.com/SAP_SCM">SAP SCM | </a>
+            <a href="https://www.brillicaservices.com/SAP_PP">SAP PP | </a>
+            <a href="https://www.brillicaservices.com/SAP_HR">SAP HR | </a>
+            <a href="https://www.brillicaservices.com/SAP_MM">SAP MM | </a>
+            <a href="https://www.brillicaservices.com/Salesforce_Certification">SAP-Fico Salesforce Certification | </a>
+            <a href="https://www.brillicaservices.com/Red_Hat_Certified_System_Administrator_Training">Red Hat Certified
+                System Administrator Training | </a>
+            <a href="https://www.brillicaservices.com/AWS_Solution_Architect_Professional_Level_Training">AWS Solution
+                Architect Professional Level Training | </a>
+            <a href="https://www.brillicaservices.com/AWS_Solution_Architect_Associate_Level_Training">AWS Solution
+                Architect Associate Level Training| </a>
+            <a href="https://www.brillicaservices.com/AZ-400_Microsoft_Azure_DevOps_Solutions_Training">AZ-400 Microsoft
+                Azure DevOps Solutions Training |</a>
+
+        </section>
+    </section>
+    <!-- Foot All Links Section Ends-->
+
+    <!-- CopyRight Section Starts-->
+    <footer class="footer">
+        <p> © All rights reserved 2021-22 Website Designed and Developed by Shubham Joshi.</p>
+    </footer>
+    <!-- CopyRight Section Ends-->
+
+    <div class="whatsapp-btn">
+        <i class="fa-brands fa-square-whatsapp"></i>
+    </div>
+    <div class="call-btn">
+        <a href="tel:+91 7505407218"><i class="fa-solid fa-phone"></i></a>
+    </div>
+    <!-- Js File Linked -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
