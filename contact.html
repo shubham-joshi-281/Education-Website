@@ -1,92 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brillica Services Website Clone By Shubham Joshi</title>
     <!-- Fav icon -->
-    <link rel="shortcut icon" href="./images/brillicalogo.png" type="image/x-icon">
-    <!-- Bootstrap CSS CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <!-- Bootstrap Script CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-    <!-- link external css -->
-    <link rel="stylesheet" href="./style.css">
-    <!-- link Responsive external css -->
-    <link rel="stylesheet" href="./responsive.css">
-    <!-- link cdn of font awosome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- font family link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-</head>
+      rel="shortcut icon"
+      href="./images/brillicalogo.png"
+      type="image/x-icon"
+    />
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Script CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- link external css -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- link Responsive external css -->
+    <link rel="stylesheet" href="./responsive.css" />
+    <!-- link cdn of font awosome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <!-- Head Section Starts -->
     <header class="head-container">
-        <section class="top-head">
-            <div class="top-left-head">
-                <a href="tel:+91 9536151723"><i class="fa-solid fa-phone-volume icon"></i></a>
-                <a href="tel:+91 7505407218">+91- 7505407218</a>
-                <a href="tel:8882140688">+91- 8882140688</a>
-            </div>
-            <div class="top-right-head">
-                <a href="https://www.facebook.com/BrillicaServices" target="_blank"><i
-                        class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://twitter.com/BrillicaServic1" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.instagram.com/brillicaservices/" target="_blank"><i
-                        class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/brillica-services-pvt-ltd/" target="_blank"><i
-                        class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.youtube.com/channel/UCiSM7T99TirO9z2xFEOMllQ" target="_blank"><i
-                        class="fa-brands fa-youtube"></i></a>
-                <a href="#" target="_blank"><i class="fa-regular fa-envelope"></i></a>
-            </div>
-        </section>
-        <section class="bottom-head">
-            <div class="logo">
-                <a href="./index.html"><img src="./images/logo.jpeg" alt="brillica logo"></a>
-            </div>
-            <div class="nav" id="nav" onclick="show()">
-                <div class="menu" id="menu">
-                    <div class="bar" id="bar1"></div>
-                    <div class="bar" id="bar2"></div>
-                    <div class="bar" id="bar3"></div>
-                </div>
-                <div class="nav-ul">
-                    <li class="nav-li" id="nav-btn"><a href="./allCourse.html">all courses</a></li>
-                    <li class="nav-li"><a href="./about.html" target="_blank">about us</a></li>
-                    <li class="nav-li" id="drop-box"><a href="#">our services</a>
-                        <ul class="drop-down">
-                            <li class="drop-down-li"><a href="https://www.brillicaservices.com/technology_training"
-                                    target="_blank">technology training</a></li>
-                            <li class="drop-down-li"><a href="https://www.brillicaservices.com/Web_and_App"
-                                    target="_blank">Web And app development</a></li>
-                            <li class="drop-down-li"><a href="https://www.brillicaservices.com/Internship_with_us"
-                                    target="_blank">internship training</a></li>
-                            <li class="drop-down-li"><a href="#">recruitment services</a></li>
-                            <li class="drop-down-li"><a href="https://www.brillicaservices.com/digital_marketing"
-                                    target="_blank">digital marketing</a></li>
-                            <li class="drop-down-li"><a href="https://www.brillicaservices.com/corporate_training"
-                                    target="_blank">corporate training</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-li"><a href="./blog.html" target="_blank">blog</a></li>
-                    <li class="nav-li"><a href="./contact.html" target="_blank">contact us</a></li>
-                    <li class="nav-li" id="nav-eq-btn" onclick="msg()"><a href="./enquiry.html">enquiry</a></li>
-                </div>
-            </div>
-        </section>
+      <section class="top-head">
+        <div class="top-left-head">
+          <a href="tel:+91 9536151723"
+            ><i class="fa-solid fa-phone-volume icon"></i
+          ></a>
+          <a href="tel:+91 7505407218">+91- 7505407218</a>
+          <a href="tel:8882140688">+91- 8882140688</a>
+        </div>
+        <div class="top-right-head">
+          <a href="https://www.facebook.com/BrillicaServices" target="_blank"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="https://twitter.com/BrillicaServic1" target="_blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/brillicaservices/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/company/brillica-services-pvt-ltd/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/channel/UCiSM7T99TirO9z2xFEOMllQ"
+            target="_blank"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+          <a href="#" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+      </section>
+      <section class="bottom-head">
+        <div class="logo">
+          <a href="./index.html"
+            ><img src="./images/logo.jpeg" alt="brillica logo"
+          /></a>
+        </div>
+        <div class="nav" id="nav" onclick="show()">
+          <div class="menu" id="menu">
+            <div class="bar" id="bar1"></div>
+            <div class="bar" id="bar2"></div>
+            <div class="bar" id="bar3"></div>
+          </div>
+          <div class="nav-ul">
+            <li class="nav-li" id="nav-btn">
+              <a href="./allCourse.html">all courses</a>
+            </li>
+            <li class="nav-li">
+              <a href="./about.html" target="_blank">about us</a>
+            </li>
+            <li class="nav-li" id="drop-box">
+              <a href="#">our services</a>
+              <ul class="drop-down">
+                <li class="drop-down-li">
+                  <a
+                    href="https://www.brillicaservices.com/technology_training"
+                    target="_blank"
+                    >technology training</a
+                  >
+                </li>
+                <li class="drop-down-li">
+                  <a
+                    href="https://www.brillicaservices.com/Web_and_App"
+                    target="_blank"
+                    >Web And app development</a
+                  >
+                </li>
+                <li class="drop-down-li">
+                  <a
+                    href="https://www.brillicaservices.com/Internship_with_us"
+                    target="_blank"
+                    >internship training</a
+                  >
+                </li>
+                <li class="drop-down-li">
+                  <a href="#">recruitment services</a>
+                </li>
+                <li class="drop-down-li">
+                  <a
+                    href="https://www.brillicaservices.com/digital_marketing"
+                    target="_blank"
+                    >digital marketing</a
+                  >
+                </li>
+                <li class="drop-down-li">
+                  <a
+                    href="https://www.brillicaservices.com/corporate_training"
+                    target="_blank"
+                    >corporate training</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-li">
+              <a href="./blog.html" target="_blank">blog</a>
+            </li>
+            <li class="nav-li">
+              <a href="./contact.html" target="_blank">contact us</a>
+            </li>
+            <li class="nav-li" id="nav-eq-btn" onclick="msg()">
+              <a href="./enquiry.html">enquiry</a>
+            </li>
+          </div>
+        </div>
+      </section>
     </header>
     <!-- Head Section Ends -->
 
@@ -96,238 +152,345 @@
 
     <!-- Contact Section Starts -->
     <section class="contact-container">
-        <img src="./aboutimg/contactusbanner.jpg" alt="Contact Page Image">
+      <img src="./aboutimg/contactusbanner.jpg" alt="Contact Page Image" />
     </section>
     <!-- Contact Section Ends -->
 
     <!-- Form Section Starts -->
     <section class="form-container">
+      <div class="input-container">
+        <form action="">
+          Contact Us
+          <div class="in">
+            <input type="text" placeholder="Name" id="uname" />
+          </div>
+          <div class="in">
+            <input type="email" placeholder="E-Mail" id="email" />
+          </div>
+          <div class="in">
+            <input type="number" placeholder="Mobile Number" id="mobile" />
+          </div>
+          <div class="in">
+            <input type="text" placeholder="Country" />
+          </div>
+          <div class="in">
+            <input type="text" placeholder="Message" />
+          </div>
 
-        <div class="input-container">
-            <form action="">Contact Us
-                <div class="in">
-                    <input type="text" placeholder="Name" id="uname">
-                </div>
-                <div class="in">
-                    <input type="email" placeholder="E-Mail" id="email">
-                </div>
-                <div class="in">
-                    <input type="number" placeholder="Mobile Number" id="mobile">
-                </div>
-                <div class="in">
-                    <input type="text" placeholder="Country">
-                </div>
-                <div class="in">
-                    <input type="text" placeholder="Message">
-                </div>
-
-                <div class="in btn-input">
-                    <input type="submit" value="Get A Call">
-                </div>
-
-            </form>
+          <div class="in btn-input">
+            <input type="submit" value="Get A Call" />
+          </div>
+        </form>
+      </div>
+      <div class="address-container">
+        <div class="address-number">
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:+91 7505407218">+91- 7505407218</a>
         </div>
-        <div class="address-container">
-            <div class="address-number">
-                <i class="fa-solid fa-phone"></i>
-                <a href="tel:+91 7505407218">+91- 7505407218</a>
-            </div>
-            <div class="address-email">
-                <i class="fa-solid fa-envelope-open-text"></i>
-                <a href="">info@brillicaservices.com</a>
-            </div>
-            <div class="address-location">
-                <i class="fa-solid fa-location-pin"></i>
-                <span> Brillica Services Pvt. Ltd. ,2nd Floor, Above Suvidha Supermarket, Patel Nagar, Dehradun,
-                    Uttarakhand 248001
-                </span>
-            </div>
+        <div class="address-email">
+          <i class="fa-solid fa-envelope-open-text"></i>
+          <a href="">info@brillicaservices.com</a>
         </div>
+        <div class="address-location">
+          <i class="fa-solid fa-location-pin"></i>
+          <span>
+            Brillica Services Pvt. Ltd. ,2nd Floor, Above Suvidha Supermarket,
+            Patel Nagar, Dehradun, Uttarakhand 248001
+          </span>
+        </div>
+      </div>
     </section>
     <!-- Form Section Ends -->
 
     <!-- Locations Section Starts-->
     <section class="location-section">
-        <div class="location-para">
-            Other Location
+      <div class="location-para">Other Location</div>
+      <div class="location-box">
+        <div class="city">
+          <h2>Delhi</h2>
+          <p>
+            <i class="fa-solid fa-location-pin"></i>Brillica Service Pvt. Ltd,
+            2nd Floor, B1/630,Above Maruti Suzuki Showroom, Block B1 Janakpuri,
+            Delhi 110058
+          </p>
+          <div class="city-First-call">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+91 7505407218">+91- 7505407218</a>
+          </div>
+
+          <div class="city-second-call">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+91 7505407218">+91- 7505407218</a>
+          </div>
         </div>
-        <div class="location-box">
-            <div class="city">
-                <h2>Delhi</h2>
-                <p> <i class="fa-solid fa-location-pin"></i>Brillica Service Pvt. Ltd, 2nd Floor, B1/630,Above Maruti
-                    Suzuki Showroom, Block B1 Janakpuri, Delhi 110058</p>
-                <div class="city-First-call"><i class="fa-solid fa-phone"></i>
-                    <a href="tel:+91 7505407218">+91- 7505407218</a>
-                </div>
+        <div class="city">
+          <h2>GURGAON</h2>
+          <p>
+            <i class="fa-solid fa-location-pin"></i>Brillica Service Pvt.
+            Ltd,Golf View Coporate Tower, Sector 42, Gurgram, Haryana 122002
+          </p>
+          <div class="city-First-call">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+91 7505407218">+91- 7505407218</a>
+          </div>
 
-                <div class="city-second-call"><i class="fa-solid fa-phone"></i>
-                    <a href="tel:+91 7505407218">+91- 7505407218</a>
-                </div>
-
-            </div>
-            <div class="city">
-                <h2>GURGAON</h2>
-                <p> <i class="fa-solid fa-location-pin"></i>Brillica Service Pvt. Ltd,Golf View Coporate Tower, Sector
-                    42, Gurgram, Haryana 122002</p>
-                <div class="city-First-call"><i class="fa-solid fa-phone"></i>
-                    <a href="tel:+91 7505407218">+91- 7505407218</a>
-                </div>
-
-                <div class="city-second-call"><i class="fa-solid fa-phone"></i>
-                    <a href="tel:+91 7505407218">+91- 7505407218</a>
-                </div>
-
-            </div>
-            <div class="city">
-                <h2>KENYA</h2>
-                <p> <i class="fa-solid fa-location-pin"></i>Woodland rd, Nairobi, Kenya</p>
-                <div class="city-First-call"><i class="fa-solid fa-phone"></i>
-                    <a href="tel:+91 7505407218">+91- 7505407218</a>
-                </div>
-
-                <div class="city-second-call"><i class="fa-solid fa-phone"></i>
-                    <a href="tel:+91 7505407218">+91- 7505407218</a>
-                </div>
-
-            </div>
-            <div class="city">
-                <h2>DUBAI</h2>
-                <p> <i class="fa-solid fa-location-pin"></i>Edoxi Training Institute Dubai</p>
-                <div class="city-First-call"><i class="fa-solid fa-phone"></i>
-                    <a href="tel:+91 7505407218">+91- 7505407218</a>
-                </div>
-
-                <div class="city-second-call"><i class="fa-solid fa-phone"></i>
-                    <a href="tel:+91 7505407218">+91- 7505407218</a>
-                </div>
-
-            </div>
+          <div class="city-second-call">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+91 7505407218">+91- 7505407218</a>
+          </div>
         </div>
+        <div class="city">
+          <h2>KENYA</h2>
+          <p>
+            <i class="fa-solid fa-location-pin"></i>Woodland rd, Nairobi, Kenya
+          </p>
+          <div class="city-First-call">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+91 7505407218">+91- 7505407218</a>
+          </div>
+
+          <div class="city-second-call">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+91 7505407218">+91- 7505407218</a>
+          </div>
+        </div>
+        <div class="city">
+          <h2>DUBAI</h2>
+          <p>
+            <i class="fa-solid fa-location-pin"></i>Edoxi Training Institute
+            Dubai
+          </p>
+          <div class="city-First-call">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+91 7505407218">+91- 7505407218</a>
+          </div>
+
+          <div class="city-second-call">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+91 7505407218">+91- 7505407218</a>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Location Section Ends -->
 
     <!-- Iframe Section Starts -->
     <section class="iframe-container">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.4939563611233!2d78.01663961499348!3d30.308464731786962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39092be2a26b8449%3A0x79e44439927156f4!2sBrillica%20Services%20Private%20Limited!5e0!3m2!1sen!2sin!4v1673608505479!5m2!1sen!2sin"
-            width="100" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.4939563611233!2d78.01663961499348!3d30.308464731786962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39092be2a26b8449%3A0x79e44439927156f4!2sBrillica%20Services%20Private%20Limited!5e0!3m2!1sen!2sin!4v1673608505479!5m2!1sen!2sin"
+        width="100"
+        height="400"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
     </section>
     <!-- Iframe Section Ends -->
 
     <!-- Bottom Link Section Starts -->
     <section class="bottom-links">
-        <div class="link-box1">
-            <div class="foot-img">
-                <img src="./images//transparent logo.png" alt="Transparent Logo At Bottom Links">
-            </div>
-            <h2>ACTIVATE YOUR BRILLIANCE ACHIEVE YOUR IT GOALS</h2>
-            <h3>GET IN TOUCH</h3>
-            <div class="mail">
-                <i class="fa-solid fa-envelope"></i>
-                <span>info@brillicaservices.com</span>
-            </div>
-            <div class="call">
-                <i class="fa-solid fa-phone"></i><span>+91- 9084063259</span>
-            </div>
-            <div class="call">
-                <i class="fa-solid fa-phone"></i>
-                <span>+91- 8882140688</span>
-            </div>
+      <div class="link-box1">
+        <div class="foot-img">
+          <img
+            src="./images//transparent logo.png"
+            alt="Transparent Logo At Bottom Links"
+          />
         </div>
-        <div class="link-box2">
-            <h2> USEFUL LINKS</h2>
-            <li> <a href="https://www.brillicaservices.com/technology_training">Technology Training</a></li>
-            <li> <a href="https://www.brillicaservices.com/Web_and_App"> Web And App Development</a></li>
-            <li><a href="https://www.brillicaservices.com/Internship_with_us"> Internship Training</a></li>
-            <li><a href="https://www.brillicaservices.com/index.php#">Recruitment Services</a></li>
-            <li> <a href="#">Digital Marketing</a></li>
+        <h2>ACTIVATE YOUR BRILLIANCE ACHIEVE YOUR IT GOALS</h2>
+        <h3>GET IN TOUCH</h3>
+        <div class="mail">
+          <i class="fa-solid fa-envelope"></i>
+          <span>info@brillicaservices.com</span>
         </div>
-        <div class="link-box3">
-            <h2>COMPANY</h2>
-            <li><a href="https://www.brillicaservices.com/Privacy_Policy">Privacy Policy</a></li>
-            <li><a href="https://www.brillicaservices.com/Terms_and_Condition">Terms And Conditions</a></li>
-            <li><a href="https://www.brillicaservices.com/Refund_Policy">Refund-Policy</a></li>
-            <li><a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScbixmhzOcNC7j-byNy8iyR5cgkJPawPCkQZ0LJltS6FV7-Iw/viewform?embedded=true">Feedback
-                    Form</a></li>
-            <li><a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSee-zQH29UttlurI0pDNtJ1K7wqN7HdcPHycFO8e3isZnY0yA/viewform">Request
-                    Certificate</a></li>
-            <li><a href="https://pages.razorpay.com/pl_DpExGgOHtCpfuW/view">Pay Online</a></li>
-            <li><a href="https://www.brillicaservices.com/ourteam">Our Team</a></li>
+        <div class="call">
+          <i class="fa-solid fa-phone"></i><span>+91- 9084063259</span>
         </div>
-        <div class="link-box4">
-            <h2>LOCATION</h2>
-            <p>2nd Floor Above Suvidha Supermarket Patel Nagar Dehradun, Uttarakhand 248001
-            </p>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.5063490863236!2d78.01650231499343!3d30.308112081787186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39092b18f2e35f5b%3A0xb6c8ff67c9d45def!2sBrillica%20Services!5e0!3m2!1sen!2sin!4v1669481371134!5m2!1sen!2sin"
-                width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade" class="iframe"></iframe>
+        <div class="call">
+          <i class="fa-solid fa-phone"></i>
+          <span>+91- 8882140688</span>
         </div>
+      </div>
+      <div class="link-box2">
+        <h2>USEFUL LINKS</h2>
+        <li>
+          <a href="https://www.brillicaservices.com/technology_training"
+            >Technology Training</a
+          >
+        </li>
+        <li>
+          <a href="https://www.brillicaservices.com/Web_and_App">
+            Web And App Development</a
+          >
+        </li>
+        <li>
+          <a href="https://www.brillicaservices.com/Internship_with_us">
+            Internship Training</a
+          >
+        </li>
+        <li>
+          <a href="https://www.brillicaservices.com/index.php#"
+            >Recruitment Services</a
+          >
+        </li>
+        <li><a href="#">Digital Marketing</a></li>
+      </div>
+      <div class="link-box3">
+        <h2>COMPANY</h2>
+        <li>
+          <a href="https://www.brillicaservices.com/Privacy_Policy"
+            >Privacy Policy</a
+          >
+        </li>
+        <li>
+          <a href="https://www.brillicaservices.com/Terms_and_Condition"
+            >Terms And Conditions</a
+          >
+        </li>
+        <li>
+          <a href="https://www.brillicaservices.com/Refund_Policy"
+            >Refund-Policy</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScbixmhzOcNC7j-byNy8iyR5cgkJPawPCkQZ0LJltS6FV7-Iw/viewform?embedded=true"
+            >Feedback Form</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSee-zQH29UttlurI0pDNtJ1K7wqN7HdcPHycFO8e3isZnY0yA/viewform"
+            >Request Certificate</a
+          >
+        </li>
+        <li>
+          <a href="https://pages.razorpay.com/pl_DpExGgOHtCpfuW/view"
+            >Pay Online</a
+          >
+        </li>
+        <li><a href="https://www.brillicaservices.com/ourteam">Our Team</a></li>
+      </div>
+      <div class="link-box4">
+        <h2>LOCATION</h2>
+        <p>
+          2nd Floor Above Suvidha Supermarket Patel Nagar Dehradun, Uttarakhand
+          248001
+        </p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.5063490863236!2d78.01650231499343!3d30.308112081787186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39092b18f2e35f5b%3A0xb6c8ff67c9d45def!2sBrillica%20Services!5e0!3m2!1sen!2sin!4v1669481371134!5m2!1sen!2sin"
+          width="300"
+          height="150"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="iframe"
+        ></iframe>
+      </div>
     </section>
     <!-- Bottom Link Section Ends -->
 
     <!-- Foot All Links Section Starts-->
     <section class="foot">
-        <section class="footer-links">
-            <h2>QUICK COURSES</h2>
-            <a href="https://www.brillicaservices.com/Python_Programming">Python Programming | </a>
-            <a href="https://www.brillicaservices.com/Machine_Learning_Using_Python">Machine learning | </a>
-            <a href="https://www.brillicaservices.com/Open_CV">OpenCV | </a>
-            <a href="https://www.brillicaservices.com/R_language">R-Language | </a>
-            <a href="https://www.brillicaservices.com/SAS_Training">SAS Training | </a>
-            <a href="https://www.brillicaservices.com/Tableau">Tableau | </a>
-            <a href="https://www.brillicaservices.com/Power_BI">Microsoft Power BI | </a>
-            <a href="https://www.brillicaservices.com/Advance_Excel">Adavance Excel Training | </a>
-            <a href="https://www.brillicaservices.com/Big_Data_Hadoop">Big Data Hadoop Adminstration Training | </a>
-            <a href="https://www.brillicaservices.com/AWS_Training">AWS Training | </a>
-            <a href="https://www.brillicaservices.com/Microsoft_Azure">Microsoft Azure Training | </a>
-            <a href="https://www.brillicaservices.com/Scrum_Master">Certified Scrum Master Training | </a>
-            <a href="https://www.brillicaservices.com/Java_Development">Java Development | </a>
-            <a href="https://www.brillicaservices.com/Full_Stack_WEB_DEVELOPMENT">Full Stack Web Development | </a>
-            <a href="https://www.brillicaservices.com/Blockchain_Developer_Ethereum">Certified Blockchain Developer |
-            </a>
-            <a href="https://www.brillicaservices.com/IOT_Training">IOT Training | </a>
-            <a href="https://www.brillicaservices.com/digital_marketing">Digital Marketing | </a>
-            <a href="https://www.brillicaservices.com/Cyber_Security">Cybersecurity | </a>
-            <a href="https://www.brillicaservices.com/android_app_development">Android Application Development | </a>
-            <a href="https://www.brillicaservices.com/CCNA">CCNA | </a>
-            <a href="https://www.brillicaservices.com/CCNP">CCNP | </a>
-            <a href="https://www.brillicaservices.com/SAP_SCM">SAP SCM | </a>
-            <a href="https://www.brillicaservices.com/SAP_PP">SAP PP | </a>
-            <a href="https://www.brillicaservices.com/SAP_HR">SAP HR | </a>
-            <a href="https://www.brillicaservices.com/SAP_MM">SAP MM | </a>
-            <a href="https://www.brillicaservices.com/Salesforce_Certification">SAP-Fico Salesforce Certification | </a>
-            <a href="https://www.brillicaservices.com/Red_Hat_Certified_System_Administrator_Training">Red Hat Certified
-                System Administrator Training | </a>
-            <a href="https://www.brillicaservices.com/AWS_Solution_Architect_Professional_Level_Training">AWS Solution
-                Architect Professional Level Training | </a>
-            <a href="https://www.brillicaservices.com/AWS_Solution_Architect_Associate_Level_Training">AWS Solution
-                Architect Associate Level Training| </a>
-            <a href="https://www.brillicaservices.com/AZ-400_Microsoft_Azure_DevOps_Solutions_Training">AZ-400 Microsoft
-                Azure DevOps Solutions Training |</a>
-
-        </section>
+      <section class="footer-links">
+        <h2>QUICK COURSES</h2>
+        <a href="https://www.brillicaservices.com/Python_Programming"
+          >Python Programming |
+        </a>
+        <a href="https://www.brillicaservices.com/Machine_Learning_Using_Python"
+          >Machine learning |
+        </a>
+        <a href="https://www.brillicaservices.com/Open_CV">OpenCV | </a>
+        <a href="https://www.brillicaservices.com/R_language">R-Language | </a>
+        <a href="https://www.brillicaservices.com/SAS_Training"
+          >SAS Training |
+        </a>
+        <a href="https://www.brillicaservices.com/Tableau">Tableau | </a>
+        <a href="https://www.brillicaservices.com/Power_BI"
+          >Microsoft Power BI |
+        </a>
+        <a href="https://www.brillicaservices.com/Advance_Excel"
+          >Adavance Excel Training |
+        </a>
+        <a href="https://www.brillicaservices.com/Big_Data_Hadoop"
+          >Big Data Hadoop Adminstration Training |
+        </a>
+        <a href="https://www.brillicaservices.com/AWS_Training"
+          >AWS Training |
+        </a>
+        <a href="https://www.brillicaservices.com/Microsoft_Azure"
+          >Microsoft Azure Training |
+        </a>
+        <a href="https://www.brillicaservices.com/Scrum_Master"
+          >Certified Scrum Master Training |
+        </a>
+        <a href="https://www.brillicaservices.com/Java_Development"
+          >Java Development |
+        </a>
+        <a href="https://www.brillicaservices.com/Full_Stack_WEB_DEVELOPMENT"
+          >Full Stack Web Development |
+        </a>
+        <a href="https://www.brillicaservices.com/Blockchain_Developer_Ethereum"
+          >Certified Blockchain Developer |
+        </a>
+        <a href="https://www.brillicaservices.com/IOT_Training"
+          >IOT Training |
+        </a>
+        <a href="https://www.brillicaservices.com/digital_marketing"
+          >Digital Marketing |
+        </a>
+        <a href="https://www.brillicaservices.com/Cyber_Security"
+          >Cybersecurity |
+        </a>
+        <a href="https://www.brillicaservices.com/android_app_development"
+          >Android Application Development |
+        </a>
+        <a href="https://www.brillicaservices.com/CCNA">CCNA | </a>
+        <a href="https://www.brillicaservices.com/CCNP">CCNP | </a>
+        <a href="https://www.brillicaservices.com/SAP_SCM">SAP SCM | </a>
+        <a href="https://www.brillicaservices.com/SAP_PP">SAP PP | </a>
+        <a href="https://www.brillicaservices.com/SAP_HR">SAP HR | </a>
+        <a href="https://www.brillicaservices.com/SAP_MM">SAP MM | </a>
+        <a href="https://www.brillicaservices.com/Salesforce_Certification"
+          >SAP-Fico Salesforce Certification |
+        </a>
+        <a
+          href="https://www.brillicaservices.com/Red_Hat_Certified_System_Administrator_Training"
+          >Red Hat Certified System Administrator Training |
+        </a>
+        <a
+          href="https://www.brillicaservices.com/AWS_Solution_Architect_Professional_Level_Training"
+          >AWS Solution Architect Professional Level Training |
+        </a>
+        <a
+          href="https://www.brillicaservices.com/AWS_Solution_Architect_Associate_Level_Training"
+          >AWS Solution Architect Associate Level Training|
+        </a>
+        <a
+          href="https://www.brillicaservices.com/AZ-400_Microsoft_Azure_DevOps_Solutions_Training"
+          >AZ-400 Microsoft Azure DevOps Solutions Training |</a
+        >
+      </section>
     </section>
     <!-- Foot All Links Section Ends-->
 
     <!-- CopyRight Section Starts-->
     <footer class="footer">
-        <p> © All rights reserved 2021-22 Website Designed and Developed by Shubham Joshi.</p>
+      <p>
+        © All rights reserved 2021-22 Website Designed and Developed by Shubham
+        Joshi.
+      </p>
     </footer>
     <!-- CopyRight Section Ends-->
 
     <div class="whatsapp-btn">
-        <i class="fa-brands fa-square-whatsapp"></i>
+      <i class="fa-brands fa-square-whatsapp"></i>
     </div>
     <div class="call-btn">
-        <a href="tel:+91 7505407218"><i class="fa-solid fa-phone"></i></a>
+      <a href="tel:+91 7505407218"><i class="fa-solid fa-phone"></i></a>
     </div>
     <!-- Js File Linked -->
     <script src="./script.js"></script>
-
-</body>
-
+  </body>
 </html>

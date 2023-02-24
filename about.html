@@ -1,92 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brillica Services Website Clone By Shubham Joshi</title>
     <!-- Fav icon -->
-    <link rel="shortcut icon" href="./images/brillicalogo.png" type="image/x-icon">
-    <!-- Bootstrap CSS CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <!-- Bootstrap Script CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-    <!-- link external css -->
-    <link rel="stylesheet" href="./style.css">
-    <!-- link Responsive external css -->
-    <link rel="stylesheet" href="./responsive.css">
-    <!-- link cdn of font awosome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- font family link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-</head>
+      rel="shortcut icon"
+      href="./images/brillicalogo.png"
+      type="image/x-icon"
+    />
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Script CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- link external css -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- link Responsive external css -->
+    <link rel="stylesheet" href="./responsive.css" />
+    <!-- link cdn of font awosome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <!-- Head Section Starts -->
     <header class="head-container">
-        <section class="top-head">
-            <div class="top-left-head">
-                <a href="tel:+91 9536151723"><i class="fa-solid fa-phone-volume icon"></i></a>
-                <a href="tel:+91 7505407218">+91- 7505407218</a>
-                <a href="tel:8882140688">+91- 8882140688</a>
-            </div>
-            <div class="top-right-head">
-                <a href="https://www.facebook.com/BrillicaServices" target="_blank"><i
-                        class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://twitter.com/BrillicaServic1" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.instagram.com/brillicaservices/" target="_blank"><i
-                        class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/brillica-services-pvt-ltd/" target="_blank"><i
-                        class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.youtube.com/channel/UCiSM7T99TirO9z2xFEOMllQ" target="_blank"><i
-                        class="fa-brands fa-youtube"></i></a>
-                <a href="#" target="_blank"><i class="fa-regular fa-envelope"></i></a>
-            </div>
-        </section>
-        <section class="bottom-head">
-            <div class="logo">
-                <a href="./index.html"><img src="./images/logo.jpeg" alt="brillica logo"></a>
-            </div>
-            <div class="nav" id="nav" onclick="show()">
-                <div class="menu" id="menu">
-                    <div class="bar" id="bar1"></div>
-                    <div class="bar" id="bar2"></div>
-                    <div class="bar" id="bar3"></div>
-                </div>
-                <div class="nav-ul">
-                    <li class="nav-li" id="nav-btn"><a href="./allCourse.html">all courses</a></li>
-                    <li class="nav-li"><a href="./about.html" target="_blank">about us</a></li>
-                    <li class="nav-li" id="drop-box"><a href="#">our services</a>
-                        <ul class="drop-down">
-                            <li class="drop-down-li"><a href="https://www.brillicaservices.com/technology_training"
-                                    target="_blank">technology training</a></li>
-                            <li class="drop-down-li"><a href="https://www.brillicaservices.com/Web_and_App"
-                                    target="_blank">Web And app development</a></li>
-                            <li class="drop-down-li"><a href="https://www.brillicaservices.com/Internship_with_us"
-                                    target="_blank">internship training</a></li>
-                            <li class="drop-down-li"><a href="#">recruitment services</a></li>
-                            <li class="drop-down-li"><a href="https://www.brillicaservices.com/digital_marketing"
-                                    target="_blank">digital marketing</a></li>
-                            <li class="drop-down-li"><a href="https://www.brillicaservices.com/corporate_training"
-                                    target="_blank">corporate training</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-li"><a href="./blog.html" target="_blank">blog</a></li>
-                    <li class="nav-li"><a href="./contact.html" target="_blank">contact us</a></li>
-                    <li class="nav-li" id="nav-eq-btn" onclick="msg()"><a href="./enquiry.html">enquiry</a></li>
-                </div>
-            </div>
-        </section>
+      <section class="top-head">
+        <div class="top-left-head">
+          <a href="tel:+91 9536151723"
+            ><i class="fa-solid fa-phone-volume icon"></i
+          ></a>
+          <a href="tel:+91 7505407218">+91- 7505407218</a>
+          <a href="tel:8882140688">+91- 8882140688</a>
+        </div>
+        <div class="top-right-head">
+          <a href="https://www.facebook.com/BrillicaServices" target="_blank"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="https://twitter.com/BrillicaServic1" target="_blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/brillicaservices/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/company/brillica-services-pvt-ltd/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/channel/UCiSM7T99TirO9z2xFEOMllQ"
+            target="_blank"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+          <a href="#" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+      </section>
+      <section class="bottom-head">
+        <div class="logo">
+          <a href="./index.html"
+            ><img src="./images/logo.jpeg" alt="brillica logo"
+          /></a>
+        </div>
+        <div class="nav" id="nav" onclick="show()">
+          <div class="menu" id="menu">
+            <div class="bar" id="bar1"></div>
+            <div class="bar" id="bar2"></div>
+            <div class="bar" id="bar3"></div>
+          </div>
+          <div class="nav-ul">
+            <li class="nav-li" id="nav-btn">
+              <a href="./allCourse.html">all courses</a>
+            </li>
+            <li class="nav-li">
+              <a href="./about.html" target="_blank">about us</a>
+            </li>
+            <li class="nav-li" id="drop-box">
+              <a href="#">our services</a>
+              <ul class="drop-down">
+                <li class="drop-down-li">
+                  <a
+                    href="https://www.brillicaservices.com/technology_training"
+                    target="_blank"
+                    >technology training</a
+                  >
+                </li>
+                <li class="drop-down-li">
+                  <a
+                    href="https://www.brillicaservices.com/Web_and_App"
+                    target="_blank"
+                    >Web And app development</a
+                  >
+                </li>
+                <li class="drop-down-li">
+                  <a
+                    href="https://www.brillicaservices.com/Internship_with_us"
+                    target="_blank"
+                    >internship training</a
+                  >
+                </li>
+                <li class="drop-down-li">
+                  <a href="#">recruitment services</a>
+                </li>
+                <li class="drop-down-li">
+                  <a
+                    href="https://www.brillicaservices.com/digital_marketing"
+                    target="_blank"
+                    >digital marketing</a
+                  >
+                </li>
+                <li class="drop-down-li">
+                  <a
+                    href="https://www.brillicaservices.com/corporate_training"
+                    target="_blank"
+                    >corporate training</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-li">
+              <a href="./blog.html" target="_blank">blog</a>
+            </li>
+            <li class="nav-li">
+              <a href="./contact.html" target="_blank">contact us</a>
+            </li>
+            <li class="nav-li" id="nav-eq-btn" onclick="msg()">
+              <a href="./enquiry.html">enquiry</a>
+            </li>
+          </div>
+        </div>
+      </section>
     </header>
     <!-- Head Section Ends -->
 
@@ -95,311 +151,415 @@
     <!-- Slider Section Ends -->
 
     <!-- About Page Starts -->
-    <Section class="about-container">
-        <div class="about-box">
-            <div class="about-text">
-                <h1> About us</h1>
-                <p>Founded in 2017, Brillica Services Pvt.Ltd is a provider of IT conulting, WEb & App development
-                    Services, Recruitment Services, Analytics Services & IT Trainings. With a team of
-                    Experienced,dedicated and knowledgeable IT Professonals having profound subject-matter expertise we
-                    provide blended IT salutions to map all your IT needs.We have also trained over 15k candidates on
-                    latest & Top-notch Technologies like Data Science, Data Analytics, Python, AI, Full Stack
-                    Development, SAP, SAS, Cloud, Cyber security & more.</p>
-            </div>
-            <div class="about-img">
-                <img src="./aboutimg/abouts.webp" alt="About Page Logo">
-            </div>
+    <section class="about-container">
+      <div class="about-box">
+        <div class="about-text">
+          <h1>About us</h1>
+          <p>
+            Founded in 2017, Brillica Services Pvt.Ltd is a provider of IT
+            conulting, WEb & App development Services, Recruitment Services,
+            Analytics Services & IT Trainings. With a team of
+            Experienced,dedicated and knowledgeable IT Professonals having
+            profound subject-matter expertise we provide blended IT salutions to
+            map all your IT needs.We have also trained over 15k candidates on
+            latest & Top-notch Technologies like Data Science, Data Analytics,
+            Python, AI, Full Stack Development, SAP, SAS, Cloud, Cyber security
+            & more.
+          </p>
         </div>
-    </Section>
+        <div class="about-img">
+          <img src="./aboutimg/abouts.webp" alt="About Page Logo" />
+        </div>
+      </div>
+    </section>
     <!-- About Page Section Ends -->
 
     <!-- About Us Bottom Section Starts -->
     <section class="about-bottom-container">
-        <div class="about-bottom">
-            <div class="text-below">
-                <p>Brillica Services Private Limited is a trusted and best IT training company and provides Web and App
-                    Development Services also. With a team of certified, dedicated and knowledgeable IT Professionals
-                    having profound subject-matter expertise. We provide blended IT solutions to map all your IT needs.
-                    Brillica Services brings forth an array of specialized and in-demand and the best IT training
-                    courses with live projects in diverse domains including Data Science, Data Analytics, Project
-                    Management, Cloud Computing, Cyber Security, Development and Robotics, and many more. Brillica
-                    Services provides the best project based internship training programs in every aspect with the
-                    latest technologies and a team of certified trainers with relevant industry experience. Brillica
-                    Services also gives opportunities to work on live projects so that the aspirants become job-ready by
-                    the end of their trainings. Brillica Services maintains strategic partnerships with top IT
-                    certification providers like IBM, Microsoft, Cloudera Connect, AWS, MAPR, CERT NEXUS, Intel,
-                    Blockchain Training Alliance, and many more.</p>
-            </div>
-            <div class="images-below">
-                <img src="./aboutimg/about-us.png" alt="About Bottom Image">
-            </div>
+      <div class="about-bottom">
+        <div class="text-below">
+          <p>
+            Brillica Services Private Limited is a trusted and best IT training
+            company and provides Web and App Development Services also. With a
+            team of certified, dedicated and knowledgeable IT Professionals
+            having profound subject-matter expertise. We provide blended IT
+            solutions to map all your IT needs. Brillica Services brings forth
+            an array of specialized and in-demand and the best IT training
+            courses with live projects in diverse domains including Data
+            Science, Data Analytics, Project Management, Cloud Computing, Cyber
+            Security, Development and Robotics, and many more. Brillica Services
+            provides the best project based internship training programs in
+            every aspect with the latest technologies and a team of certified
+            trainers with relevant industry experience. Brillica Services also
+            gives opportunities to work on live projects so that the aspirants
+            become job-ready by the end of their trainings. Brillica Services
+            maintains strategic partnerships with top IT certification providers
+            like IBM, Microsoft, Cloudera Connect, AWS, MAPR, CERT NEXUS, Intel,
+            Blockchain Training Alliance, and many more.
+          </p>
         </div>
+        <div class="images-below">
+          <img src="./aboutimg/about-us.png" alt="About Bottom Image" />
+        </div>
+      </div>
     </section>
     <!-- About Us Bottom Section Ends -->
 
     <!-- Vission Section Starts -->
     <section class="about-vision">
-        <div class="about-boxes">
-            <div class="vision-box">
-                <img src="./aboutimg/Vision.jpg" alt="">
-                <h3>VISION</h3>
-                <p>To be a one stop IT consulting, HR Recruitment,Outsourcing and Training solution provider for
-                    corporate business needs and true growth partner for our valued customers in india and abroad.We
-                    commit oursleves for innovative and winning culture for our employees,Growth partner for our
-                    customers & Results to our Stakeholders.</p>
-            </div>
+      <div class="about-boxes">
+        <div class="vision-box">
+          <img src="./aboutimg/Vision.jpg" alt="" />
+          <h3>VISION</h3>
+          <p>
+            To be a one stop IT consulting, HR Recruitment,Outsourcing and
+            Training solution provider for corporate business needs and true
+            growth partner for our valued customers in india and abroad.We
+            commit oursleves for innovative and winning culture for our
+            employees,Growth partner for our customers & Results to our
+            Stakeholders.
+          </p>
         </div>
-        <div class="about-boxes">
-            <div class="value-box">
-                <img src="./aboutimg//ourvalues.jpg" alt="">
-                <h3>OUR VALUES</h3>
-                <ul type="cd">
-                    <li>Customer Focus</li>
-                    <li>Bulid Trust</li>
-                    <li>Deliver Results</li>
-                    <li>Always be Growing</li>
-                    <li>Ownership</li>
-                    <li>Be Curious</li>
-                    <li>Hire & Develop the Best</li>
-                    <li>Be Bold</li>
-                    <li>Continuous Improvement</li>
-                    <li>Constructive Feedback</li>
-                </ul>
-            </div>
+      </div>
+      <div class="about-boxes">
+        <div class="value-box">
+          <img src="./aboutimg//ourvalues.jpg" alt="" />
+          <h3>OUR VALUES</h3>
+          <ul type="cd">
+            <li>Customer Focus</li>
+            <li>Bulid Trust</li>
+            <li>Deliver Results</li>
+            <li>Always be Growing</li>
+            <li>Ownership</li>
+            <li>Be Curious</li>
+            <li>Hire & Develop the Best</li>
+            <li>Be Bold</li>
+            <li>Continuous Improvement</li>
+            <li>Constructive Feedback</li>
+          </ul>
         </div>
-        <div class="about-boxes">
-            <div class="mission-box">
-                <img src="./aboutimg/mission.jpg" alt="">
-                <h3>MISSION</h3>
-                <p>To help you master cutting-edge technologies, keep pace with the evolving IT era and become
-                    industry-fit. The first step Towords Creating a successful Career is developing the ability to
-                    envision it. Hit the Road to success with Brillica Services. We follow the Rule of 4E's Encourage
-                    Empower Experiment Expand.</p>
-            </div>
+      </div>
+      <div class="about-boxes">
+        <div class="mission-box">
+          <img src="./aboutimg/mission.jpg" alt="" />
+          <h3>MISSION</h3>
+          <p>
+            To help you master cutting-edge technologies, keep pace with the
+            evolving IT era and become industry-fit. The first step Towords
+            Creating a successful Career is developing the ability to envision
+            it. Hit the Road to success with Brillica Services. We follow the
+            Rule of 4E's Encourage Empower Experiment Expand.
+          </p>
         </div>
+      </div>
     </section>
     <!-- Vission Section Ends -->
 
     <!-- About Page Our Associates section Starts -->
     <section class="about-our-associates">
-        <div class="about-associates">
-            <div class="primary-para">
-                OUR INDUSTRY ASSOCIATION
-            </div>
-            <div class="associates-para">
-                Throught our history,we have developed a number of partnershipa with technology leaders, who highly
-                attested our technical competencies and the ability to understand our customers' need and translate them
-                into quality Services: IBM Certified Business partner,CloudEra consulting partner,Microshoft Authorized
-                Education partner,intel Technology partner. We are a customer focused company operating globally
-                Delivering high quality services to our customers in our top priority. Our core value drive how we work
-                with our customer and how we bulid our team through who we hire,reward,and promote.
-            </div>
-            <div class="img">
-                <img src="/aboutimg/m1.png" alt="Comapny Logo 1">
-                <img src="/aboutimg/m2.png" alt="Comapny Logo 2">
-                <img src="/aboutimg/AWS.png" alt="Comapny Logo 3">
-                <img src="/aboutimg/MAPR.png" alt="Comapny Logo 4">
-                <img src="/aboutimg/INTEL.png" alt="Comapny Logo 5">
-                <img src="/aboutimg/CERT.png" alt="Comapny Logo 6">
-            </div>
+      <div class="about-associates">
+        <div class="primary-para">OUR INDUSTRY ASSOCIATION</div>
+        <div class="associates-para">
+          Throught our history,we have developed a number of partnershipa with
+          technology leaders, who highly attested our technical competencies and
+          the ability to understand our customers' need and translate them into
+          quality Services: IBM Certified Business partner,CloudEra consulting
+          partner,Microshoft Authorized Education partner,intel Technology
+          partner. We are a customer focused company operating globally
+          Delivering high quality services to our customers in our top priority.
+          Our core value drive how we work with our customer and how we bulid
+          our team through who we hire,reward,and promote.
         </div>
+        <div class="img">
+          <img src="./aboutimg/m1.png" alt="Comapny Logo 1" />
+          <img src="./aboutimg/m2.png" alt="Comapny Logo 2" />
+          <img src="./aboutimg/AWS.png" alt="Comapny Logo 3" />
+          <img src="./aboutimg/MAPR.png" alt="Comapny Logo 4" />
+          <img src="./aboutimg/INTEL.png" alt="Comapny Logo 5" />
+          <img src="./aboutimg/CERT.png" alt="Comapny Logo 6" />
+        </div>
+      </div>
     </section>
     <!-- About Page Our Associates section Ends -->
 
     <!-- CTO MSG Section Starts -->
     <section class="cto">
-        <div class="primary-para">
-            cto-Message
-        </div>
-        <div class="cto-container">
-            <img src="./aboutimg/cto.jpg" alt="">
-            <p>We are in a unique time-a time of great change and even grater opportunitiy At Brillica services,We have
-                always believed that information makes businesses and people better,and as the global landscape
-                continues to transform,We are inspired every day to find new ways that information and technology can
-                make world a better place.
-                <br><br><b>Yogendra Singh Negi</b>
-            </p>
-        </div>
+      <div class="primary-para">cto-Message</div>
+      <div class="cto-container">
+        <img src="./aboutimg/cto.jpg" alt="" />
+        <p>
+          We are in a unique time-a time of great change and even grater
+          opportunitiy At Brillica services,We have always believed that
+          information makes businesses and people better,and as the global
+          landscape continues to transform,We are inspired every day to find new
+          ways that information and technology can make world a better place.
+          <br /><br /><b>Yogendra Singh Negi</b>
+        </p>
+      </div>
     </section>
     <!-- CTO MSG Section Ends -->
 
     <!-- CEO MSG Section Starts -->
     <section class="ceo">
-        <div class="primary-para">
-            ceo-Message
-        </div>
-        <div class="ceo-container">
-            <p>We Stand for delivering Quality with Competence as we are streered by technology, Characterized by
-                experience, and electrified by pepole. with the fast-paced changes in the global marketplace
-                today,organizations are continuously challanged to improved productivity and efficiency while being
-                burdened with increasing costs.<br><br>
-                <b>Pooja Pandey</b>
-            </p>
-            <img src="./aboutimg/poojamam.jpg" alt="">
-        </div>
+      <div class="primary-para">ceo-Message</div>
+      <div class="ceo-container">
+        <p>
+          We Stand for delivering Quality with Competence as we are streered by
+          technology, Characterized by experience, and electrified by pepole.
+          with the fast-paced changes in the global marketplace
+          today,organizations are continuously challanged to improved
+          productivity and efficiency while being burdened with increasing
+          costs.<br /><br />
+          <b>Pooja Pandey</b>
+        </p>
+        <img src="./aboutimg/poojamam.jpg" alt="" />
+      </div>
     </section>
     <!-- CEO MSG Section Ends -->
 
     <!--Why Brillica Section Starts  -->
     <section class="why-brillica-container">
-        <div class="why-para">WHY CHOOSE BRILLICA SERVICES FOR IT TRAINING</div>
-        <div class="why-brillica">
-            <div class="brillica-box">
-                <img src="./aboutimg/asset 11.svg" alt="">
-                <p>Hands-on Learning Approach</p>
-            </div>
-            <div class="brillica-box">
-                <img src="./aboutimg/asset 12.svg" alt="">
-                <p>Experience Latest Technologies</p>
-            </div>
-            <div class="brillica-box">
-                <img src="./aboutimg/asset 13.svg" alt="">
-                <p>Real-World Projects To Explore</p>
-            </div>
-            <div class="brillica-box">
-                <img src="./aboutimg/asset 14.svg" alt="">
-                <p>Project Completion Certificate</p>
-            </div>
-            <div class="brillica-box">
-                <img src="./aboutimg/asset 15.svg" alt="">
-                <p>Internship Completion Letter</p>
-            </div>
-            <div class="brillica-box">
-                <img src="./aboutimg/asset 16.svg" alt="">
-                <p>Training Completion Certificate (IBM/Microsoft)</p>
-            </div>
-            <div class="brillica-box">
-                <img src="./aboutimg/asset 17.svg" alt="">
-                <p>Build a Strong Tech Profile</p>
-            </div>
-            <div class="brillica-box">
-                <img src="./aboutimg/asset 18.svg" alt="">
-                <p>250+ Successfull Intern in last 6 Months</p>
-            </div>
+      <div class="why-para">WHY CHOOSE BRILLICA SERVICES FOR IT TRAINING</div>
+      <div class="why-brillica">
+        <div class="brillica-box">
+          <img src="./aboutimg/asset 11.svg" alt="" />
+          <p>Hands-on Learning Approach</p>
         </div>
-
+        <div class="brillica-box">
+          <img src="./aboutimg/asset 12.svg" alt="" />
+          <p>Experience Latest Technologies</p>
+        </div>
+        <div class="brillica-box">
+          <img src="./aboutimg/asset 13.svg" alt="" />
+          <p>Real-World Projects To Explore</p>
+        </div>
+        <div class="brillica-box">
+          <img src="./aboutimg/asset 14.svg" alt="" />
+          <p>Project Completion Certificate</p>
+        </div>
+        <div class="brillica-box">
+          <img src="./aboutimg/asset 15.svg" alt="" />
+          <p>Internship Completion Letter</p>
+        </div>
+        <div class="brillica-box">
+          <img src="./aboutimg/asset 16.svg" alt="" />
+          <p>Training Completion Certificate (IBM/Microsoft)</p>
+        </div>
+        <div class="brillica-box">
+          <img src="./aboutimg/asset 17.svg" alt="" />
+          <p>Build a Strong Tech Profile</p>
+        </div>
+        <div class="brillica-box">
+          <img src="./aboutimg/asset 18.svg" alt="" />
+          <p>250+ Successfull Intern in last 6 Months</p>
+        </div>
+      </div>
     </section>
     <!--Why Brillica Section Ends  -->
 
-    <!--Roadmap Section Starts  -->
-    <section class="roadmap">
-        <img src="./aboutimg/Screenshot (80).jpg" alt="">
-    </section>
-    <!--Roadmap Section Ends  -->
-
     <!-- Bottom Link Section Starts -->
     <section class="bottom-links">
-        <div class="link-box1">
-            <div class="foot-img">
-                <img src="./images//transparent logo.png" alt="Transparent Logo At Bottom Links">
-            </div>
-            <h2>ACTIVATE YOUR BRILLIANCE ACHIEVE YOUR IT GOALS</h2>
-            <h3>GET IN TOUCH</h3>
-            <div class="mail">
-                <i class="fa-solid fa-envelope"></i>
-                <span>info@brillicaservices.com</span>
-            </div>
-            <div class="call">
-                <i class="fa-solid fa-phone"></i><span>+91- 9084063259</span>
-            </div>
-            <div class="call">
-                <i class="fa-solid fa-phone"></i>
-                <span>+91- 8882140688</span>
-            </div>
+      <div class="link-box1">
+        <div class="foot-img">
+          <img
+            src="./images//transparent logo.png"
+            alt="Transparent Logo At Bottom Links"
+          />
         </div>
-        <div class="link-box2">
-            <h2> USEFUL LINKS</h2>
-            <li> <a href="https://www.brillicaservices.com/technology_training">Technology Training</a></li>
-            <li> <a href="https://www.brillicaservices.com/Web_and_App"> Web And App Development</a></li>
-            <li><a href="https://www.brillicaservices.com/Internship_with_us"> Internship Training</a></li>
-            <li><a href="https://www.brillicaservices.com/index.php#">Recruitment Services</a></li>
-            <li> <a href="#">Digital Marketing</a></li>
+        <h2>ACTIVATE YOUR BRILLIANCE ACHIEVE YOUR IT GOALS</h2>
+        <h3>GET IN TOUCH</h3>
+        <div class="mail">
+          <i class="fa-solid fa-envelope"></i>
+          <span>info@brillicaservices.com</span>
         </div>
-        <div class="link-box3">
-            <h2>COMPANY</h2>
-            <li><a href="https://www.brillicaservices.com/Privacy_Policy">Privacy Policy</a></li>
-            <li><a href="https://www.brillicaservices.com/Terms_and_Condition">Terms And Conditions</a></li>
-            <li><a href="https://www.brillicaservices.com/Refund_Policy">Refund-Policy</a></li>
-            <li><a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScbixmhzOcNC7j-byNy8iyR5cgkJPawPCkQZ0LJltS6FV7-Iw/viewform?embedded=true">Feedback
-                    Form</a></li>
-            <li><a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSee-zQH29UttlurI0pDNtJ1K7wqN7HdcPHycFO8e3isZnY0yA/viewform">Request
-                    Certificate</a></li>
-            <li><a href="https://pages.razorpay.com/pl_DpExGgOHtCpfuW/view">Pay Online</a></li>
-            <li><a href="https://www.brillicaservices.com/ourteam">Our Team</a></li>
+        <div class="call">
+          <i class="fa-solid fa-phone"></i><span>+91- 9084063259</span>
         </div>
-        <div class="link-box4">
-            <h2>LOCATION</h2>
-            <p>2nd Floor Above Suvidha Supermarket Patel Nagar Dehradun, Uttarakhand 248001
-            </p>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.5063490863236!2d78.01650231499343!3d30.308112081787186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39092b18f2e35f5b%3A0xb6c8ff67c9d45def!2sBrillica%20Services!5e0!3m2!1sen!2sin!4v1669481371134!5m2!1sen!2sin"
-                width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade" class="iframe"></iframe>
+        <div class="call">
+          <i class="fa-solid fa-phone"></i>
+          <span>+91- 8882140688</span>
         </div>
+      </div>
+      <div class="link-box2">
+        <h2>USEFUL LINKS</h2>
+        <li>
+          <a href="https://www.brillicaservices.com/technology_training"
+            >Technology Training</a
+          >
+        </li>
+        <li>
+          <a href="https://www.brillicaservices.com/Web_and_App">
+            Web And App Development</a
+          >
+        </li>
+        <li>
+          <a href="https://www.brillicaservices.com/Internship_with_us">
+            Internship Training</a
+          >
+        </li>
+        <li>
+          <a href="https://www.brillicaservices.com/index.php#"
+            >Recruitment Services</a
+          >
+        </li>
+        <li><a href="#">Digital Marketing</a></li>
+      </div>
+      <div class="link-box3">
+        <h2>COMPANY</h2>
+        <li>
+          <a href="https://www.brillicaservices.com/Privacy_Policy"
+            >Privacy Policy</a
+          >
+        </li>
+        <li>
+          <a href="https://www.brillicaservices.com/Terms_and_Condition"
+            >Terms And Conditions</a
+          >
+        </li>
+        <li>
+          <a href="https://www.brillicaservices.com/Refund_Policy"
+            >Refund-Policy</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScbixmhzOcNC7j-byNy8iyR5cgkJPawPCkQZ0LJltS6FV7-Iw/viewform?embedded=true"
+            >Feedback Form</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSee-zQH29UttlurI0pDNtJ1K7wqN7HdcPHycFO8e3isZnY0yA/viewform"
+            >Request Certificate</a
+          >
+        </li>
+        <li>
+          <a href="https://pages.razorpay.com/pl_DpExGgOHtCpfuW/view"
+            >Pay Online</a
+          >
+        </li>
+        <li><a href="https://www.brillicaservices.com/ourteam">Our Team</a></li>
+      </div>
+      <div class="link-box4">
+        <h2>LOCATION</h2>
+        <p>
+          2nd Floor Above Suvidha Supermarket Patel Nagar Dehradun, Uttarakhand
+          248001
+        </p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.5063490863236!2d78.01650231499343!3d30.308112081787186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39092b18f2e35f5b%3A0xb6c8ff67c9d45def!2sBrillica%20Services!5e0!3m2!1sen!2sin!4v1669481371134!5m2!1sen!2sin"
+          width="300"
+          height="150"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="iframe"
+        ></iframe>
+      </div>
     </section>
     <!-- Bottom Link Section Ends -->
 
     <!-- Foot All Links Section Starts-->
     <section class="foot">
-        <section class="footer-links">
-            <h2>QUICK COURSES</h2>
-            <a href="https://www.brillicaservices.com/Python_Programming">Python Programming | </a>
-            <a href="https://www.brillicaservices.com/Machine_Learning_Using_Python">Machine learning | </a>
-            <a href="https://www.brillicaservices.com/Open_CV">OpenCV | </a>
-            <a href="https://www.brillicaservices.com/R_language">R-Language | </a>
-            <a href="https://www.brillicaservices.com/SAS_Training">SAS Training | </a>
-            <a href="https://www.brillicaservices.com/Tableau">Tableau | </a>
-            <a href="https://www.brillicaservices.com/Power_BI">Microsoft Power BI | </a>
-            <a href="https://www.brillicaservices.com/Advance_Excel">Adavance Excel Training | </a>
-            <a href="https://www.brillicaservices.com/Big_Data_Hadoop">Big Data Hadoop Adminstration Training | </a>
-            <a href="https://www.brillicaservices.com/AWS_Training">AWS Training | </a>
-            <a href="https://www.brillicaservices.com/Microsoft_Azure">Microsoft Azure Training | </a>
-            <a href="https://www.brillicaservices.com/Scrum_Master">Certified Scrum Master Training | </a>
-            <a href="https://www.brillicaservices.com/Java_Development">Java Development | </a>
-            <a href="https://www.brillicaservices.com/Full_Stack_WEB_DEVELOPMENT">Full Stack Web Development | </a>
-            <a href="https://www.brillicaservices.com/Blockchain_Developer_Ethereum">Certified Blockchain Developer |
-            </a>
-            <a href="https://www.brillicaservices.com/IOT_Training">IOT Training | </a>
-            <a href="https://www.brillicaservices.com/digital_marketing">Digital Marketing | </a>
-            <a href="https://www.brillicaservices.com/Cyber_Security">Cybersecurity | </a>
-            <a href="https://www.brillicaservices.com/android_app_development">Android Application Development | </a>
-            <a href="https://www.brillicaservices.com/CCNA">CCNA | </a>
-            <a href="https://www.brillicaservices.com/CCNP">CCNP | </a>
-            <a href="https://www.brillicaservices.com/SAP_SCM">SAP SCM | </a>
-            <a href="https://www.brillicaservices.com/SAP_PP">SAP PP | </a>
-            <a href="https://www.brillicaservices.com/SAP_HR">SAP HR | </a>
-            <a href="https://www.brillicaservices.com/SAP_MM">SAP MM | </a>
-            <a href="https://www.brillicaservices.com/Salesforce_Certification">SAP-Fico Salesforce Certification | </a>
-            <a href="https://www.brillicaservices.com/Red_Hat_Certified_System_Administrator_Training">Red Hat Certified
-                System Administrator Training | </a>
-            <a href="https://www.brillicaservices.com/AWS_Solution_Architect_Professional_Level_Training">AWS Solution
-                Architect Professional Level Training | </a>
-            <a href="https://www.brillicaservices.com/AWS_Solution_Architect_Associate_Level_Training">AWS Solution
-                Architect Associate Level Training| </a>
-            <a href="https://www.brillicaservices.com/AZ-400_Microsoft_Azure_DevOps_Solutions_Training">AZ-400 Microsoft
-                Azure DevOps Solutions Training |</a>
-
-        </section>
+      <section class="footer-links">
+        <h2>QUICK COURSES</h2>
+        <a href="https://www.brillicaservices.com/Python_Programming"
+          >Python Programming |
+        </a>
+        <a href="https://www.brillicaservices.com/Machine_Learning_Using_Python"
+          >Machine learning |
+        </a>
+        <a href="https://www.brillicaservices.com/Open_CV">OpenCV | </a>
+        <a href="https://www.brillicaservices.com/R_language">R-Language | </a>
+        <a href="https://www.brillicaservices.com/SAS_Training"
+          >SAS Training |
+        </a>
+        <a href="https://www.brillicaservices.com/Tableau">Tableau | </a>
+        <a href="https://www.brillicaservices.com/Power_BI"
+          >Microsoft Power BI |
+        </a>
+        <a href="https://www.brillicaservices.com/Advance_Excel"
+          >Adavance Excel Training |
+        </a>
+        <a href="https://www.brillicaservices.com/Big_Data_Hadoop"
+          >Big Data Hadoop Adminstration Training |
+        </a>
+        <a href="https://www.brillicaservices.com/AWS_Training"
+          >AWS Training |
+        </a>
+        <a href="https://www.brillicaservices.com/Microsoft_Azure"
+          >Microsoft Azure Training |
+        </a>
+        <a href="https://www.brillicaservices.com/Scrum_Master"
+          >Certified Scrum Master Training |
+        </a>
+        <a href="https://www.brillicaservices.com/Java_Development"
+          >Java Development |
+        </a>
+        <a href="https://www.brillicaservices.com/Full_Stack_WEB_DEVELOPMENT"
+          >Full Stack Web Development |
+        </a>
+        <a href="https://www.brillicaservices.com/Blockchain_Developer_Ethereum"
+          >Certified Blockchain Developer |
+        </a>
+        <a href="https://www.brillicaservices.com/IOT_Training"
+          >IOT Training |
+        </a>
+        <a href="https://www.brillicaservices.com/digital_marketing"
+          >Digital Marketing |
+        </a>
+        <a href="https://www.brillicaservices.com/Cyber_Security"
+          >Cybersecurity |
+        </a>
+        <a href="https://www.brillicaservices.com/android_app_development"
+          >Android Application Development |
+        </a>
+        <a href="https://www.brillicaservices.com/CCNA">CCNA | </a>
+        <a href="https://www.brillicaservices.com/CCNP">CCNP | </a>
+        <a href="https://www.brillicaservices.com/SAP_SCM">SAP SCM | </a>
+        <a href="https://www.brillicaservices.com/SAP_PP">SAP PP | </a>
+        <a href="https://www.brillicaservices.com/SAP_HR">SAP HR | </a>
+        <a href="https://www.brillicaservices.com/SAP_MM">SAP MM | </a>
+        <a href="https://www.brillicaservices.com/Salesforce_Certification"
+          >SAP-Fico Salesforce Certification |
+        </a>
+        <a
+          href="https://www.brillicaservices.com/Red_Hat_Certified_System_Administrator_Training"
+          >Red Hat Certified System Administrator Training |
+        </a>
+        <a
+          href="https://www.brillicaservices.com/AWS_Solution_Architect_Professional_Level_Training"
+          >AWS Solution Architect Professional Level Training |
+        </a>
+        <a
+          href="https://www.brillicaservices.com/AWS_Solution_Architect_Associate_Level_Training"
+          >AWS Solution Architect Associate Level Training|
+        </a>
+        <a
+          href="https://www.brillicaservices.com/AZ-400_Microsoft_Azure_DevOps_Solutions_Training"
+          >AZ-400 Microsoft Azure DevOps Solutions Training |</a
+        >
+      </section>
     </section>
     <!-- Foot All Links Section Ends-->
 
     <!-- CopyRight Section Starts-->
     <footer class="footer">
-        <p> © All rights reserved 2021-22 Website Designed and Developed by Shubham Joshi.</p>
+      <p>
+        © All rights reserved 2021-22 Website Designed and Developed by Shubham
+        Joshi.
+      </p>
     </footer>
     <!-- CopyRight Section Ends-->
 
     <div class="whatsapp-btn">
-        <i class="fa-brands fa-square-whatsapp"></i>
+      <i class="fa-brands fa-square-whatsapp"></i>
     </div>
     <div class="call-btn">
-        <a href="tel:+91 7505407218"><i class="fa-solid fa-phone"></i></a>
+      <a href="tel:+91 7505407218"><i class="fa-solid fa-phone"></i></a>
     </div>
     <!-- Js File Linked -->
     <script src="./script.js"></script>
-
-</body>
-
+  </body>
 </html>

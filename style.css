@@ -932,6 +932,7 @@ p a {
 .why-brillica-container {
   width: 100%;
   height: 300px;
+  margin: 20px auto;
   background-color: #00306e;
 }
 .why-para {
@@ -972,17 +973,6 @@ p a {
 }
 /* Why Brillica Section CSS Ends */
 
-/* Road Map Image Section CSS Starts */
-.roadmap {
-  width: 100%;
-  height: 450px;
-  margin: 10px auto;
-}
-.roadmap img {
-  width: 100%;
-  height: 100%;
-}
-/* Road Map Image Section CSS Starts */
 /* ABOUT PAGE CSS ENDS  */
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx */
 /* CONTACT PAGE CSS Starts  */
