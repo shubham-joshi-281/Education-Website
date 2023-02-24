@@ -1,0 +1,594 @@
+/*HOME PAGE Media Quary Starts */
+@media only screen and (max-width: 992px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .primary-para {
+    font-size: 18px;
+  }
+  /* Head Section Media Quary Starts */
+  .head-container {
+    width: 100%;
+    height: auto;
+  }
+  .top-head {
+    flex-direction: column;
+    width: 100%;
+    height: 40px;
+  }
+  .bottom-head {
+    flex-direction: column;
+    width: 100%;
+    height: 60px;
+    position: relative;
+  }
+  .top-left-head,
+  .top-right-head {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .top-left-head a {
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+  }
+  .top-right-head a {
+    display: none;
+  }
+  .logo {
+    width: 70%;
+    height: 100%;
+    margin: 0px auto;
+  }
+  .nav {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .nav-ul {
+    width: 100%;
+    display: none;
+    height: auto;
+  }
+  .menu {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .change #bar1 {
+    transform: translateY(2px) rotateZ(45deg);
+  }
+  .change #bar2 {
+    opacity: 0;
+  }
+  .change #bar3 {
+    transform: translateY(-4px) rotateZ(-45deg);
+  }
+  .change .nav-ul {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    height: 55vh;
+    background: #00306e;
+  }
+  .change .nav-ul li {
+    border-bottom: 2px solid white;
+    width: 70%;
+    margin: 0px;
+    text-align: center;
+  }
+  .change .nav-ul li a {
+    color: white;
+  }
+  .change .drop-down li a {
+    color: black;
+  }
+  /* Head Section Media Quary Ends */
+
+  /* Header section bottom space */
+  .slider {
+    margin-top: 110px;
+    width: 100vw;
+    height: auto;
+  }
+  /* Header section bottom space */
+
+  /* Trend Courses Media Quary Starts*/
+  .trend-course {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+  }
+  .trending-top-box {
+    width: 80%;
+    height: auto;
+  }
+  .box {
+    width: 40%;
+    height: auto;
+    margin: 10px auto;
+    flex-direction: column;
+  }
+  .empty-box {
+    display: none;
+  }
+  #box2 {
+    width: 80%;
+    height: auto;
+    display: flex;
+  }
+  /* Trend Courses Media Quary Ends*/
+
+  /* Our Service Media Quary Starts*/
+  .our-service {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+  }
+  .our-service-box {
+    width: 80%;
+    height: auto;
+  }
+  .service-box {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    flex-direction: column;
+  }
+  #btn,
+  .service-box p,
+  .nxtbtn,
+  .prevbtn {
+    display: none;
+  }
+  /* Our Services Media Quary ends*/
+
+  /* Hero First/ Hero Second Media Quary Starts*/
+  .hero,
+  .hero1 {
+    width: 100%;
+    height: auto;
+  }
+  .hero img,
+  .hero1 img {
+    width: 100%;
+    height: auto;
+  }
+  /* Hero First/ Hero Second Media Quary Ends*/
+
+  /* Sucess Ratio Media Quary Starts */
+  .success-ratio {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .success-ratio-box {
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+  }
+  .srbox {
+    width: 100%;
+    height: auto;
+  }
+  /* Sucess Ratio Media Quary Ends */
+
+  /* Student Tesinomial Media Quary starts */
+  .student-testinomial {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+  }
+  .student {
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+  }
+  .border {
+    height: auto;
+    width: 100%;
+  }
+  .student-box1 {
+    height: auto;
+    width: 100%;
+  }
+  #box4 {
+    display: flex;
+    height: auto;
+    width: 80%;
+  }
+  /* Student Tesinomial Media Quary Ends */
+
+  /* Our Associates Media Quary Starts*/
+  .our-associates {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .our-box {
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+  }
+  .text,
+  .images {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+  }
+  .images img {
+    width: 30%;
+    height: auto;
+  }
+  .text h2 {
+    font-size: 1.3rem;
+    padding-left: 10px;
+  }
+  .text h3 {
+    padding-left: 10px;
+  }
+  /* Our Associates Media Quary Ends*/
+
+  /* FQA Media Quary Starts*/
+  .fqa {
+    width: 100%;
+    height: auto;
+  }
+  /* FQA Media Quary Ends*/
+
+  /* Bootom Link Media Quary Starts*/
+  .bottom-links {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: 0px auto;
+  }
+  .foot-img {
+    margin-top: -40px;
+    margin-bottom: 30px;
+  }
+  .link-box1,
+  .link-box2,
+  .link-box3,
+  .link-box4 {
+    text-align: center;
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+  }
+  .link-box2 h2,
+  .link-box3 h2,
+  .link-box4 h2 {
+    font-size: 15px;
+    padding: 5px;
+  }
+  .link-box1 img {
+    width: 50%;
+    height: auto;
+  }
+  .link-box4 {
+    height: auto;
+    width: 100%;
+    text-align: center;
+  }
+  /* Bootom Link Media Quary Ends*/
+
+  /* Foot Link Media Quary Starts*/
+  .foot {
+    width: 100%;
+    height: auto;
+    text-align: justify;
+  }
+  .footer-links {
+    width: 90%;
+    height: auto;
+  }
+  .footer-links a {
+    font-size: 0.8rem;
+  }
+  /* Foot Link Media Quary Ends*/
+
+  /* Copyright Media Quary starts*/
+  .footer {
+    width: 100%;
+    height: auto;
+  }
+  .footer p {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  /* Copyright Section Media Quary Ends*/
+}
+/* HOME PAGE MEDIA QUARY ENDS HERE ................... */
+
+/*ABOUT PAGE Media Quary Starts */
+@media only screen and (max-width: 992px) {
+  /* About Container & Bottom About Media Quary Starts */
+  .about-container,
+  .about-bottom-container {
+    width: 100%;
+    height: auto;
+  }
+  .about-box,
+  .about-bottom {
+    width: 100%;
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  .about-text,
+  .text-below {
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+  }
+  .about-text h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .about-text p {
+    font-size: 1rem;
+  }
+  .about-img {
+    width: 50%;
+    height: auto;
+    margin: 10px auto;
+    margin-bottom: 10px;
+  }
+  .about-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .images-below {
+    width: 50%;
+    height: auto;
+    margin: 0px auto;
+    margin-bottom: 10px;
+  }
+  .images-below img {
+    width: 100%;
+    height: 100%;
+  }
+  /* About Container & Bottom About Media Quary Ends */
+
+  /* Vision Section Media Quary Starts */
+  .about-vision {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    flex-direction: column;
+  }
+  .vision-box,
+  .mission-box {
+    width: 100%;
+    height: auto;
+  }
+  .about-boxes {
+    width: 80%;
+    margin: 30px auto;
+    height: auto;
+  }
+  /* Vision Section Media Quary Ends */
+
+  /* Our Associates Section Media Quary Starts */
+  .about-our-associates {
+    height: auto;
+    width: 90%;
+    margin: 0px auto;
+  }
+  .associates-para {
+    height: auto;
+    width: 90%;
+    margin: 0px auto;
+    font-size: 0.9rem;
+  }
+  .img {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .img img {
+    width: 40%;
+    height: auto;
+    margin: 10px 0px;
+  }
+  /* Our Associates Section Media Quary Ends */
+
+  /* CTO & CEO Media Quary Starts */
+  .cto,
+  .ceo {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+  }
+  .cto-container {
+    width: 80%;
+    flex-direction: column;
+    height: auto;
+    margin: 10px auto;
+  }
+  .cto-container img,
+  .ceo-container img {
+    width: 50%;
+    height: auto;
+    margin: 10px auto;
+  }
+  .ceo-container {
+    width: 80%;
+    flex-direction: column-reverse;
+    height: auto;
+    margin: 10px auto;
+  }
+  .cto-container p,
+  .ceo-container p {
+    width: 90%;
+    margin: 0px auto;
+    height: auto;
+    font-size: 0.9rem;
+  }
+  /* CTO & CEO Media Quary Ends */
+
+  /* Why Brillica Media Quary Starts */
+  .why-brillica-container {
+    width: 100%;
+    height: auto;
+  }
+  .why-brillica {
+    width: 80%;
+    margin: 0px auto;
+    height: auto;
+    flex-direction: column;
+  }
+  .why-para {
+    font-size: 1rem;
+  }
+  .brillica-box {
+    width: 100%;
+    margin: 10px auto;
+    height: auto;
+  }
+  /* Why Brillica Media Quary Ends */
+}
+/*ABOUT PAGE Media Quary Ends */
+
+/*CONTACT PAGE Media Quary Starts */
+@media only screen and (max-width: 992px) {
+  /* Contact Container Media Quary Starts */
+  .contact-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .contact-container img {
+    width: 100%;
+    height: auto;
+  }
+  .form-container {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  .input-container {
+    height: auto;
+    width: 100%;
+  }
+  .address-container {
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    flex-direction: column;
+  }
+  .address-number,
+  .address-email,
+  .address-location {
+    height: auto;
+    width: 100%;
+    margin: 20px auto;
+  }
+  .location-section {
+    width: 100%;
+    height: auto;
+  }
+  .location-box {
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+    margin: 0px auto;
+  }
+  .city {
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+    border-bottom: 2px solid #10a1b6;
+    border-right: none;
+  }
+  .city-First-call,
+  .city-second-call {
+    text-align: center;
+  }
+  /* Contact Container Media Quary Ends */
+
+  /* Iframe Container Media Quary Starts */
+  .iframe-container {
+    width: 100%;
+    height: auto;
+  }
+  /* Iframe Container Media Quary Ends */
+}
+/*CONTACT PAGE Media Quary Ends Here.............. */
+
+/*BLOG PAGE Media Quary Starts */
+@media only screen and (max-width: 992px) {
+  /* Blog Container Media Quary Starts */
+  .blog-container,
+  .blog-head-img {
+    height: auto;
+    width: 100vw;
+  }
+  /* Blog Container Media Quary Ends */
+
+  /* Blog Pages Container Media Quary Starts */
+  .pages-container {
+    height: auto;
+    width: 100%;
+  }
+  .page-section-one {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+  #two,
+  #three,
+  #four {
+    display: flex;
+    height: auto;
+    width: 90%;
+  }
+  .blog-box {
+    width: 90%;
+    height: auto;
+    margin: 5px auto;
+  }
+  .btn {
+    display: none;
+  }
+  #nav-btn {
+    display: none;
+  }
+  /* Blog Pages Container Media Quary Ends */
+}
+/*BLOG PAGE Media Quary Ends Here........... */
+
+@media only screen and (max-width: 992px) {
+  .enq-page-container{
+    width:100%;
+    height: 100vh;
+    margin: 0px auto;
+    border: 1px solid rgb(5, 5, 5);
+    background-color: #000;
+  }
+  .enq-container{
+    width: 90%;
+    margin-top: 100px;
+    height: auto;
+  }
+  .enq-input-container {
+    width: 100%;
+    height: auto;
+  }
+  .img-container{
+    display: none;
+  }
+}
